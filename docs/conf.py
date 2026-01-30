@@ -48,9 +48,12 @@ html_theme_options = {
     "light_css_variables": {
         "color-guilabel-text": "#FF0000",
         "color-brand-primary": "#265787",
-        "color-sidebar-background": "#f3f2f1",
+        "color-sidebar-background": "#e4eaed",
         "sidebar-caption-font-size": "var(--font-size--normal)",
         "toc-font-size": "var(--font-size--small)",
         "admonition-font-size": "0.858rem"
     },
+    "dark_css_variables": {
+        "color-sidebar-background": "#1a1c1e",
+    }
 }
