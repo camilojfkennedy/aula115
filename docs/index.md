@@ -15,6 +15,7 @@ f(x)=transferencia(estructuración(exploración))
 $$
 
 **Principios de la clase**:
+
 1. "Se aprende haciendo".
 2. "Se aprende enseñando".
 3. "Todo se sustenta".
