@@ -26,5 +26,6 @@ $$
 :maxdepth: 2
 
 intro.md
+informacion.md
 
 :::
