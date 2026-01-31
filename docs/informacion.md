@@ -1,6 +1,6 @@
 # Información
 
-A continuación se presenta información útil para el estudiante.
+La siguiente información es útil para el estudiante.
 
 ---
 ## ÚTILES escolares
@@ -47,7 +47,7 @@ Puntaje INSTRUIMOS | Nota IEJFK
 ## SELLO DOCENTE ®️
 
 - Estudiante coloca la fecha.
-- La nota puede ser cualitativa o cuantitativa.
+- La **nota** puede ser cualitativa o cuantitativa.
 - Por lo general, cada sello se marca después de terminar una actividad.
 
     :::{figure} ./recursos/sello.png 
@@ -57,7 +57,7 @@ Puntaje INSTRUIMOS | Nota IEJFK
     :::
 
 ---
-## ACCESO al PORTAL SALA 115
+## ACCESO al EVA: AULA 115
 
 - INTERNET: [https://aula115.readthedocs.io](https://aula115.readthedocs.io)
 - INTRANET: [http://192.168.115.201](http://192.168.115.201)
@@ -85,16 +85,16 @@ La siguiente tabla muestra los límites de almacenamiento que tiene cada integra
 ❌ = suspensión de la cuenta
 
 ---
-## ACCESO a la sala 115 en contrajornada
+## ACCESO al aula 115 en contrajornada
 
 :::{admonition} A tener en cuenta... ✉️
 :class: warning
-Para **asegurar y mantener la correcta funcionalidad de los equipos**, se debe tener un control y seguimiento en la sala. Es por eso que los estudiantes que deseen *hacer uso de la sala de informática 115 en contra-jornada*, deben solicitar el acceso enviando un correo a:
+Para **asegurar y mantener la correcta funcionalidad de los equipos**, se debe tener un control y seguimiento en el aula. Es por eso que los estudiantes que deseen *hacer uso del aula de informática 115 en contra-jornada*, deben solicitar el acceso enviando un correo a:
 
 :Cuenta: camilo.fonseca@jfkennedy.edu.co
-:Asunto: Autorización acceso sala 115 en contra-jornada
+:Asunto: Autorización acceso aula 115 en contra-jornada
 
-Una vez el correo tenga respuesta afirmativa del docente, el estudiante tendrá autorización para ingresar a la sala en contra-jornada. ✔
+Una vez el correo tenga respuesta afirmativa del docente, el estudiante tendrá autorización para ingresar al aula en contra-jornada. ✔
 
 > *"Debido a limitaciones de espacio y recursos, se tiene un límite de acceso a estudiantes".*
 
@@ -107,7 +107,7 @@ El horario de atención en contra-jornada es:
 ---
 ## Reglas del aula ⚖️
 
-1. Las personas que hagan uso de la sala 115, deben atender y obedecer las instrucciones del profesor (o encargado de la sala), así como mantener respeto y disciplina.
+1. Las personas que hagan uso del aula 115, deben atender y obedecer las instrucciones del profesor (o encargado del aula), así como mantener respeto y disciplina.
 
 ---
 
@@ -124,7 +124,7 @@ El horario de atención en contra-jornada es:
 4. ESTA PROHIBIDO: 🚫
 
     - Pedir permiso para ir al baño (ORDEN DE COORDINACIÓN) (PROBLEMAS URINARIOS PREVIA EVIDENCIA MÉDICA) **(Pedir permiso constantemente genera mucha interrupción en el desarrollo de la clase)**
-    - Consumir o ingresar cualquier tipo de **comida** o **bebida** en la sala de informática. Los residuos de comida o bebida caen sobre los equipos.
+    - Consumir o ingresar cualquier tipo de **comida** o **bebida** en el aula de informática. Los residuos de comida o bebida caen sobre los equipos.
     - Escuchar música en el computador o celular sin autorización del docente.
     - Ver videos en el computador o celular sin autorización del docente.
     - Jugar videojuegos en el computador o celular sin autorización del docente.
@@ -132,12 +132,12 @@ El horario de atención en contra-jornada es:
     - Tomar fotos, selfis o videos sin autorización del docente.
     - Dejar bolsos o cualquier otro elemento encima de las mesas de los equipos. (`Los cables de alimentación se pueden desconectar y esto daña los equipos`).
     - Bajar los tacos.
-    - Acostarse en el piso de la sala.
-    - Sentarse de forma incorrecta en las sillas de la sala o sentarse en las mesas.
+    - Acostarse en el piso del aula.
+    - Sentarse de forma incorrecta en las sillas del aula o sentarse en las mesas.
     - Gritos extemporáneos o hablar en voz alta.
-    - Dañar o escribir en los muebles de la sala. (lápiz, bolígrafos, pinturas, etc.)
-    - Maquillarse en la sala.
-    - Realizar cualquier tipo de bailes o expresiones corporales en la sala.
+    - Dañar o escribir en los muebles del aula. (lápiz, bolígrafos, pinturas, etc.)
+    - Maquillarse en el aula.
+    - Realizar cualquier tipo de bailes o expresiones corporales en el aula.
     - Manipular aires acondicionados, ventiladores, televisor, tablero.
     - Invadir el espacio del docente.
     - Acceder al gabinete, armario y escritorio del docente.
@@ -145,16 +145,16 @@ El horario de atención en contra-jornada es:
     - Instalar software en los equipos sin previa autorización del profesor.
     - Borrar archivos de los equipos.
     - Consumir cualquier tipo de droga o estupefaciente. 💀
-    - Arrojar basura en la sala.
+    - Arrojar basura en el aula.
     - No hacer el aseo o hacerlo de forma mediocre.
-    - Esconder y robar cualquier objeto de la sala o de los compañeros.
+    - Esconder y robar cualquier objeto del aula o de los compañeros.
     - Ocupar el puesto del compañero.
-    - Realizar trabajos diferentes a la asignatura de la sala.
-    - Quitarse los zapatos
+    - Realizar trabajos diferentes a la asignatura en el aula.
+    - Quitarse los zapatos.
 
 ---
 
-5. Cualquier duda sobre el uso de la sala, preguntar al docente o al encargado. (Prohibido realizar cualquier acción que no este seguro de como proceder).
+5. Cualquier duda sobre el uso del aula, preguntar al docente o al encargado. (Prohibido realizar cualquier acción que no este seguro de como proceder).
 
 ---
 

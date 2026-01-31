@@ -1,0 +1,27 @@
+# Periodo 01
+
+:::{list-table}
+:header-rows: 0
+* - ![escudo](../../../escudo.png){width=250px}
+  - **INSTITUCIÓN EDUCATIVA** John F. Kennedy <br/> **DOCENTE** Julian Camilo Fonseca Romero <br/> **ASIGNATURA** Lógica computacional <br/> **GRADO** OCTAVO <br/> **SEMANAS** 10 <br/> **TIEMPO DE TRABAJO** 1 hora / semana (10 horas)
+:::
+
+:TEMÁTICA: Conceptos de hardware, software, sistemas computacionales, informática y lógica computacional
+:OBJETIVO: Explicar los conceptos de hardware, software, sistemas computacionales, informática y comprender el como estos conceptos se relacionan con la definición de *lógica computacional*
+:DESEMPEÑO: Explica los conceptos de hardware, software, sistemas computacionales, informática y los relaciona con la definición de **lógica computacional**
+
+## Orientaciones curriculares
+
+- **Componente**: Naturaleza y Evolución de la T&I
+- **Compotencia**: Relaciono saberes, conocimientos tecnológicos e informáticos con los conocimientos de otras disciplinas
+- **Evidencia de aprendizaje**: Comprendo los principios y conocimientos tecnológicos e informáticos que hacen posible el funcionamiento de productos tecnológicos actuales
+
+## Contenidos
+:::{toctree}
+:maxdepth: 2
+
+A01.md
+A02.md
+A03.md
+R01.md
+:::

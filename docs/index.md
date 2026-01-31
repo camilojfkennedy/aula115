@@ -1,6 +1,6 @@
 # EVA: aula 115
 
-![Sala 115](./aula115.png)
+![Sala 115](./recursos/aula115.png)
 
 > *"Bienvenido a clase"*
 
@@ -27,5 +27,27 @@ $$
 
 intro.md
 informacion.md
+descargas.md
+:::
 
+:::{toctree}
+:hidden:
+:maxdepth: 2
+:caption: CURSOS
+
+cursos/logica8/index.md
+cursos/informatica10/index.md
+cursos/ofimatica10/index.md
+cursos/programacion10/index.md
+cursos/programacion11/index.md
+:::
+
+:::{toctree}
+:hidden:
+:maxdepth: 2
+:caption: GESTIÓN
+
+gestion/bitacora.md
+gestion/proyectos.md
+gestion/referencias.md
 :::
