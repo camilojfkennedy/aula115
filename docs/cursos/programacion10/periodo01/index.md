@@ -6,3 +6,22 @@
   - **INSTITUCIÓN EDUCATIVA** John F. Kennedy <br/> **DOCENTE** Julian Camilo Fonseca Romero <br/> **ASIGNATURA** Programación <br/> **GRADO** DÉCIMO <br/> **SEMANAS** 10 <br/> **TIEMPO DE TRABAJO** 2 horas / semana (20 horas)
 :::
 
+
+:TEMÁTICA: Principios de programación, variables y operadores.
+:OBJETIVO: Entender los conceptos de principios de programación, variables y sus operadores.
+:DESEMPEÑO: Entiende los principios de programación identificando los diferentes tipos de variables.
+
+## Orientaciones curriculares
+
+- **Componente**: Solución de problemas con T&I.
+- **Compotencia**: Propongo innovaciones tecnológicas e informáticas para la solución de problemas dando cumplimiento a restricciones, condiciones y especificaciones técnicas y contextuales.
+- **Evidencia de aprendizaje**: Propongo, analizo y comparo diferentes soluciones a un mismo problema de la tecnología o la informática, explicando su origen, ventajas y dificultades.
+
+## Contenidos
+:::{toctree}
+:maxdepth: 2
+
+A01.md
+A02.md
+R01.md
+:::

@@ -5,3 +5,22 @@
 * - ![escudo](../../../escudo.png){width=250px}
   - **INSTITUCIÓN EDUCATIVA** John F. Kennedy <br/> **DOCENTE** Julian Camilo Fonseca Romero <br/> **ASIGNATURA** Programación <br/> **GRADO** ONCE <br/> **SEMANAS** 10 <br/> **TIEMPO DE TRABAJO** 2 horas / semana (20 horas)
 :::
+
+:TEMÁTICA: Función para interactuar con el usuario y teoría de control de flujo
+:OBJETIVO: Comprender la usabilidad de la teoría de control de flujo 
+:DESEMPEÑO: Comprende la teoría de control de flujo
+
+## Orientaciones curriculares
+
+- **Componente**: Solución de problemas con T&I.
+- **Compotencia**: Propongo innovaciones tecnológicas e informáticas para la solución de problemas dando cumplimiento a restricciones, condiciones y especificaciones técnicas y contextuales.
+- **Evidencia de aprendizaje**: Propongo, analizo y comparo diferentes soluciones a un mismo problema de la tecnología o la informática, explicando su origen, ventajas y dificultades.
+
+## Contenidos
+:::{toctree}
+:maxdepth: 2
+
+A01.md
+A02.md
+R03.md
+:::
