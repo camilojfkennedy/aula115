@@ -1,0 +1,35 @@
+# Referencias
+
+- Deitel, P. J., & Deitel, H. (2014). C++: cómo programar (A. V. Romero Elizondo, Trans.). Pearson Educación.
+
+- Sweigart, A. (2019). Automate the boring stuff with python, 2nd edition: Practical programming for total beginners. No Starch Press.
+
+- Trejos Buriticá, O. I. (2017). Lógica de programación. Ediciones de la U.
+
+- Porto, J. P., & Merino, M. (2013, November 28). *Razonamiento lógico*. Definición.de; Definicion.de. [https://definicion.de/razonamiento-logico/](https://definicion.de/razonamiento-logico/)
+
+- Moja. (2024, February 9). Logica computacional: que es, como funciona, como aprenderlo y más. [Lanuevaia.com](http://lanuevaia.com/); LaNuevaIA. [https://lanuevaia.com/logica-computacional](https://lanuevaia.com/logica-computacional)
+
+- *Primera generacion (1940-1959) timeline*. (n.d.). Timetoast Timelines. Retrieved January 23, 2025, from [https://www.timetoast.com/timelines/historia-de-los-ordenadores-cf31bd54-291c-4e82-8f37-350f800b9b86](https://www.timetoast.com/timelines/historia-de-los-ordenadores-cf31bd54-291c-4e82-8f37-350f800b9b86)
+
+- *UNIX Tutorial - Introduction*. (n.d.). Duke.edu. Retrieved January 23, 2025, from [https://users.cs.duke.edu/~alvy/courses/unixtut/unixintro.html](https://users.cs.duke.edu/~alvy/courses/unixtut/unixintro.html)
+
+- Leskow, E. C. (n.d.). *Corriente Eléctrica - Concepto, intensidad, tipos y efectos*. Retrieved January 24, 2025, from [https://concepto.de/corriente-electrica/](https://concepto.de/corriente-electrica/)
+
+- *¿Qué es Investigar?* (2023, August 10). UNICLA; Universidad Contemporánea de las Américas. [https://unicla.edu.mx/blog-unicla/academico/que-es-investigar/](https://unicla.edu.mx/blog-unicla/academico/que-es-investigar/)
+
+- *Tomando Buenas Decisiones*. (1996, February 25). Ubalt.edu. [https://home.ubalt.edu/ntsbarsh/opre640S/spanish.htm](https://home.ubalt.edu/ntsbarsh/opre640S/spanish.htm)
+
+- Scala. (2023, October 23). *Claves para realizar una buena investigación*. 🟢 UNIMINUTO Virtual. [https://home.ubalt.edu/ntsbarsh/opre640S/spanish.htm](https://home.ubalt.edu/ntsbarsh/opre640S/spanish.htm)
+
+- (n.d.). El código ASCII Completo, tabla con los codigos ASCII completos, caracteres simbolos letras ascii, ascii codigo, tabla ascii, codigos ascii, caracteres ascii, codigos, tabla, caracteres, simbolos, control, imprimibles, extendido, letras, vocales, signos, s. Retrieved March 2, 2024, from [https://elcodigoascii.com.ar](https://elcodigoascii.com.ar/)
+
+- Torres, I. (2019, August 30). Diagrama de Flujo - Una Herramienta para Visualizar tus Procesos. IVE Consultores. [https://iveconsultores.com/diagrama-de-flujo/](https://iveconsultores.com/diagrama-de-flujo/)
+
+- *Comparar todos los planes de Microsoft 365 (anteriormente Office 365): Microsoft Store*. (n.d.). Microsoft.com. Retrieved October 13, 2025, from [https://www.microsoft.com/es-co/microsoft-365/buy/compare-all-microsoft-365-products?culture=es-co&country=co](https://www.microsoft.com/es-co/microsoft-365/buy/compare-all-microsoft-365-products?culture=es-co&country=co)
+
+- ¿Quiénes utilizan LibreOffice? (n.d.). LibreOffice. Retrieved July 22, 2024, from [https://es.libreoffice.org/descubre/quienes-utilizan-libreoffice/](https://es.libreoffice.org/descubre/quienes-utilizan-libreoffice/)
+
+- ¿Qué es la ofimática y para qué sirve?: herramientas. (n.d.). ESIC. Retrieved August 18, 2024, from [https://www.esic.edu/business/que-es-la-ofimatica-para-que-sirve-c](https://www.esic.edu/business/que-es-la-ofimatica-para-que-sirve-c)
+
+- (2019, August 17). OficinaLibre.net: Página Principal. Retrieved July 20, 2024, from [https://oficinalibre.net](https://oficinalibre.net/)
