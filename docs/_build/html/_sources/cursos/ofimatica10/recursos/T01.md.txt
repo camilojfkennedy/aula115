@@ -42,29 +42,6 @@ Las cuatro libertades esenciales del software libre son:
 Estas libertades son esenciales, no opcionales. Un programa es software libre si otorga a los usuarios todas estas libertades de manera adecuada.
 
 ---
-## Software de código abierto
-
-:::{figure} ./recursos/image01.png
-:align: right
-:width: 300
-Free Software
-:::
-
-El software de código abierto se caracteriza por:
-
-- Se centra más en los **beneficios prácticos** del código compartido.
-- Enfatiza la transparencia y la colaboración en el desarrollo.
-- Impulsado por la Open Source Initiative (OSI).
-- Permite licencias más flexibles, incluyendo algunas que permiten que el código se use en software propietario.
-
-En la práctica, **la mayoría del software libre también es de código abierto** y viceversa, pero los movimientos tienen diferentes filosofías y objetivos.
-
-<br/>
-
-> "Aunque el software libre y el software de código abierto comparten muchas características, existen algunas diferencias importantes".
->
-
----
 ## Ejemplos de software libre
 
 A continuación se muestran algunos ejemplos del software libre:
@@ -180,6 +157,29 @@ VLC Media Player es un reproductor multimedia libre y de código abierto que se 
 - Funciona en múltiples sistemas operativos (Windows, Linux, Mac)
 
 Desarrollado por VideoLAN Organization, VLC es uno de los reproductores más populares debido a su versatilidad y facilidad de uso. Es completamente gratuito y se mantiene actualizado por una comunidad activa de desarrolladores.
+
+---
+## Software de código abierto
+
+:::{figure} ./recursos/image01.png
+:align: right
+:width: 300
+Free Software
+:::
+
+El software de código abierto se caracteriza por:
+
+- Se centra más en los **beneficios prácticos** del código compartido.
+- Enfatiza la transparencia y la colaboración en el desarrollo.
+- Impulsado por la Open Source Initiative (OSI).
+- Permite licencias más flexibles, incluyendo algunas que permiten que el código se use en software propietario.
+
+En la práctica, **la mayoría del software libre también es de código abierto** y viceversa, pero los movimientos tienen diferentes filosofías y objetivos.
+
+<br/>
+
+> "Aunque el software libre y el software de código abierto comparten muchas características, existen algunas diferencias importantes".
+>
 
 ---
 ## Software privativo

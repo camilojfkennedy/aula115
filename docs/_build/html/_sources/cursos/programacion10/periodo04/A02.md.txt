@@ -1,8 +1,6 @@
-# A02: Operaciones en la consola interactiva PYTHON
+# A02: Variables en la consola interactiva PYTHON
 
-En esta actividad se aplica el conocimiento teórico de variables en la consola interactiva de PYTHON.
-
-Desarrolle las siguientes tareas:
+En esta actividad, se estudia el uso de diferentes tipos de **variables** en la **consola interactiva PYTHON**. Desarrolle las siguientes tareas:
 
 ---
 ## TAREA 01: Variables en PYTHON
