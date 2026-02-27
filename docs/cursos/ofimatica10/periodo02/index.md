@@ -25,7 +25,5 @@ A02.md
 A03.md
 A04.md
 A05.md
-A06.md
-A07.md
 R02.md
 :::

@@ -37,17 +37,19 @@ Desarrolle las siguientes tareas:
 
 1. A partir de los ejemplos de software libre, en su cuaderno diligencie el siguiente crucigrama:
 
-- **2.** No requiere Codecs para funcionar.
-- **6.** Se usa para crear logotipos.
-- **5.** Mismas funcionalidades de Photoshop pero es software libre.
-- **1.** Mismas funcionalidades de Microsoft Office pero es software libre.
-- **4.** Es una alternativa libre a navegadores como EDGE o CHROME.
-- **3.** Este sistema fue creado inicialmente por Linus Torvalds.
+:::{list-table}
+:header-rows: 0
 
-:::{image} ./recursos/image01.png
-:align: center
-:width: 600
+* - ![escudo](./recursos/image01.png){width=500px}
+* - **2.** No requiere Codecs para funcionar.
+* - **6.** Se usa para crear logotipos.
+* - **5.** Mismas funcionalidades de Photoshop pero es software libre.
+* - **1.** Mismas funcionalidades de Microsoft Office pero es software libre.
+* - **4.** Es una alternativa libre al navegador Google CHROME.
+* - **3.** Este sistema fue creado inicialmente por Linus Torvalds.
 :::
+
+2. En su cuaderno, REALICE una **descripción** de cada uno de los ejemplos de software libre, encontrados en el anterior crucigrama.
 
 ---
 ## TAREA 04: Relación entre el software libre y el software de código abierto

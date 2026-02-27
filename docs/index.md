@@ -1,17 +1,22 @@
-# EVA: aula 115
+# PORTAL: aula 115
 
 ![Sala 115](./recursos/aula115.png)
 
-> *"Bienvenido a clase"*
-
-En este espacio usted puede acceder a los **recursos educativos digitales**, usados en las clases que se dictan en el ***aula de Informática 115*** de la [Institución Educativa John F. Kennedy](https://www.jfkennedy.edu.co) en Puerto Boyacá, Boyacá (Colombia).
+El portal web del aula 115 es un **recurso didáctico digital**, usado en las clases que se dan en el ***aula de informática 115*** de la [Institución Educativa John F. Kennedy](https://www.jfkennedy.edu.co) en Puerto Boyacá, Boyacá (Colombia).
 
 :::{admonition} DOCENTE: Julian Camilo Fonseca Romero
 :class: seealso
-Ingeniero en Mecatrónica (2012), Especialista en Seguridad de la Información (2015), Magister en Ingeniería de Software y Sistemas Informáticos (2017).
+Ingeniero en Mecatrónica (2012), Especialista en Seguridad de la Información (2015), Magister en Ingeniería de Software y Sistemas Informáticos (2017). 
+
+:::
+
+:::{admonition} MODELO PEDAGÓGICO: ACTIVO
+:class: seealso
+
+Secuencia didáctica:
 
 $$
-f(x)=transferencia(estructuración(exploración))
+f(x)=transferencia(actividadPractica(estructuración(exploración)))
 $$
 
 **Principios de la clase**:

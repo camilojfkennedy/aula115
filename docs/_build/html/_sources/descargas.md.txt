@@ -19,52 +19,54 @@ Identifique el recurso y PULSE el botón **descargar**.
 
 ## Ofimática LibreOffice Writer
 
-- A04T03-mitos_desordenados.odt [{bdg-primary}`Descargar`](./cursos/ofimatica10/periodo02/recursos/A04T03-mitos_desordenados.odt)
+- A02T03-mitos_desordenados.odt [{bdg-primary}`Descargar`](./cursos/ofimatica10/periodo02/recursos/A02T03-mitos_desordenados.odt)
 
-- A04T04-proyecto_escritorio_libre.odt [{bdg-primary}`Descargar`](./cursos/ofimatica10/periodo02/recursos/A04T04-proyecto_escritorio_libre.odt)
+- A02T04-proyecto_escritorio_libre.odt [{bdg-primary}`Descargar`](./cursos/ofimatica10/periodo02/recursos/A02T04-proyecto_escritorio_libre.odt)
 
-- A05T02-practica_fuentes.odt [{bdg-primary}`Descargar`](./cursos/ofimatica10/periodo02/recursos/A05T02-practica_fuentes.odt)
+- A03T02-practica_fuentes.odt [{bdg-primary}`Descargar`](./cursos/ofimatica10/periodo02/recursos/A03T02-practica_fuentes.odt)
 
-- A05T03-mitos.odt [{bdg-primary}`Descargar`](./cursos/ofimatica10/periodo02/recursos/A05T03-mitos.odt)
+- A03T03-mitos.odt [{bdg-primary}`Descargar`](./cursos/ofimatica10/periodo02/recursos/A03T03-mitos.odt)
 
-- A05T04-enfermedades.odt [{bdg-primary}`Descargar`](./cursos/ofimatica10/periodo02/recursos/A05T04-enfermedades.odt)
+- A03T04-enfermedades.odt [{bdg-primary}`Descargar`](./cursos/ofimatica10/periodo02/recursos/A03T04-enfermedades.odt)
 
-- A06T01-nueces.odt [{bdg-primary}`Descargar`](./cursos/ofimatica10/periodo02/recursos/A06T01-nueces.odt)
+- A04T01-nueces.odt [{bdg-primary}`Descargar`](./cursos/ofimatica10/periodo02/recursos/A04T01-nueces.odt)
 
-- A06T02-certificado.odt [{bdg-primary}`Descargar`](./cursos/ofimatica10/periodo02/recursos/A06T02-certificado.odt)
+- A04T02-certificado.odt [{bdg-primary}`Descargar`](./cursos/ofimatica10/periodo02/recursos/A04T02-certificado.odt)
 
-- A06T03-temario.odt [{bdg-primary}`Descargar`](./cursos/ofimatica10/periodo02/recursos/A06T03-temario.odt)
+- A04T03-temario.odt [{bdg-primary}`Descargar`](./cursos/ofimatica10/periodo02/recursos/A04T03-temario.odt)
 
-- A07T01-curriculum.odt [{bdg-primary}`Descargar`](./cursos/ofimatica10/periodo02/recursos/A07T01-curriculum.odt)
+- A05T01-curriculum.odt [{bdg-primary}`Descargar`](./cursos/ofimatica10/periodo02/recursos/A05T01-curriculum.odt)
 
-- A07T02-estilo_personalizado.odt [{bdg-primary}`Descargar`](./cursos/ofimatica10/periodo02/recursos/A07T02-estilo_personalizado.odt)
+- A05T02-estilo_personalizado.odt [{bdg-primary}`Descargar`](./cursos/ofimatica10/periodo02/recursos/A05T02-estilo_personalizado.odt)
 
-- A08T01-mitos_imagen.odt [{bdg-primary}`Descargar`](./cursos/ofimatica10/periodo03/recursos/A08T01-mitos-imagen.odt)
+- A06T01-mitos_imagen.odt [{bdg-primary}`Descargar`](./cursos/ofimatica10/periodo03/recursos/A06T01-mitos-imagen.odt)
 
 - adonis.png [{bdg-primary}`Descargar`](./cursos/ofimatica10/periodo03/recursos/adonis.jpg)
 
 - afrodita.png [{bdg-primary}`Descargar`](./cursos/ofimatica10/periodo03/recursos/afrodita.png)
 
-- A09T01-organizacion_oficina.odt [{bdg-primary}`Descargar`](./cursos/ofimatica10/periodo03/recursos/A09T01-organizacion_oficina.odt)
+- A07T01-organizacion_oficina.odt [{bdg-primary}`Descargar`](./cursos/ofimatica10/periodo03/recursos/A07T01-organizacion_oficina.odt)
 
-- A09T02-mitos.odt [{bdg-primary}`Descargar`](./cursos/ofimatica10/periodo03/recursos/A09T02-mitos.odt)
+- A07T02-mitos.odt [{bdg-primary}`Descargar`](./cursos/ofimatica10/periodo03/recursos/A07T02-mitos.odt)
 
-- A09T03-mitos_a5.odt [{bdg-primary}`Descargar`](./cursos/ofimatica10/periodo03/recursos/A09T03-mitos_a5.odt)
+- A07T03-mitos_a5.odt [{bdg-primary}`Descargar`](./cursos/ofimatica10/periodo03/recursos/A07T03-mitos_a5.odt)
 
 - diosa_venus.jpg [{bdg-primary}`Descargar`](./cursos/ofimatica10/periodo03/recursos/diosa_venus.jpg)
 
-- A09T04-organizacion_oficina_horizontal.odt [{bdg-primary}`Descargar`](./cursos/ofimatica10/periodo03/recursos/A09T04-organizacion_oficina_horizontal.odt)
+- A07T04-organizacion_oficina_horizontal.odt [{bdg-primary}`Descargar`](./cursos/ofimatica10/periodo03/recursos/A07T04-organizacion_oficina_horizontal.odt)
 
-- A09T05-mitos_a5_fondo.odt [{bdg-primary}`Descargar`](./cursos/ofimatica10/periodo03/recursos/A09T05-mitos_a5_fondo.odt)
+- A07T05-mitos_a5_fondo.odt [{bdg-primary}`Descargar`](./cursos/ofimatica10/periodo03/recursos/A07T05-mitos_a5_fondo.odt)
 
-- A09T06-mitos.odt [{bdg-primary}`Descargar`](./cursos/ofimatica10/periodo03/recursos/A09T06-mitos.odt)
+- A07T06-mitos.odt [{bdg-primary}`Descargar`](./cursos/ofimatica10/periodo03/recursos/A07T06-mitos.odt)
 
-- A10T01-hermes.odt [{bdg-primary}`Descargar`](./cursos/ofimatica10/periodo03/recursos/A10T01-hermes.odt)
+- A08T01-hermes.odt [{bdg-primary}`Descargar`](./cursos/ofimatica10/periodo03/recursos/A08T01-hermes.odt)
 
-- A10T01-mitos.odt [{bdg-primary}`Descargar`](./cursos/ofimatica10/periodo03/recursos/A10T01-mitos.odt)
+- A08T01-mitos.odt [{bdg-primary}`Descargar`](./cursos/ofimatica10/periodo03/recursos/A08T01-mitos.odt)
 
-- A10T02-proyecto_escritorio_libre.odt [{bdg-primary}`Descargar`](./cursos/ofimatica10/periodo03/recursos/A10T02-proyecto_escritorio_libre.odt)
+- A08T02-proyecto_escritorio_libre.odt [{bdg-primary}`Descargar`](./cursos/ofimatica10/periodo03/recursos/A08T02-proyecto_escritorio_libre.odt)
 
-- A11T03-tablas03.odt [{bdg-primary}`Descargar`](./cursos/ofimatica10/periodo03/recursos/A11T03-tablas03.odt)
+- A09T02-consultores.odt [{bdg-primary}`Descargar`](./cursos/ofimatica10/periodo03/recursos/A09T02-consultores.odt)
 
-- A11T04-tablas04.odt [{bdg-primary}`Descargar`](./cursos/ofimatica10/periodo03/recursos/A11T04-tablas04.odt)
+- A09T03-tablas03.odt [{bdg-primary}`Descargar`](./cursos/ofimatica10/periodo03/recursos/A09T03-tablas03.odt)
+
+- A09T04-tablas04.odt [{bdg-primary}`Descargar`](./cursos/ofimatica10/periodo03/recursos/A09T04-tablas04.odt)

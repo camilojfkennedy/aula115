@@ -20,9 +20,9 @@
 :::{toctree}
 :maxdepth: 2
 
+A06.md
+A07.md
 A08.md
 A09.md
-A10.md
-A11.md
 R03.md
 :::

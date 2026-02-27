@@ -1,0 +1,212 @@
+# Guía 01: Hardware y Software
+
+:::{list-table}
+:header-rows: 0
+* - ![escudo](../../../escudo.png){width=250px}
+  - ```{list-table}
+      * - **INSTITUCIÓN EDUCATIVA**: John F. Kennedy
+      * - **DOCENTE**: Julian Camilo Fonseca Romero
+      * - **ASIGNATURA**: Lógica computacional
+      * - **GRADO**: OCTAVO
+      * - **TIEMPO**: 10 semanas (1 hora / semana)
+      * - **TOTAL**: 10 horas
+      * - **TIEMPO DE TRABAJO**: 3 horas
+
+    ```
+:::
+
+:::{tab-set}
+```{tab-item} Objetivo
+- **Temática**: Conceptos de hardware y software.
+- **Objetivo de aprendizaje**: Entender los conceptos de hardware, software y reconocer sus diferencias.
+```
+
+```{tab-item} Orientaciones curriculares
+- **Componente**: Naturaleza y Evolución de la T&I.
+- **Competencia**: Relaciono saberes, conocimientos tecnológicos e informáticos con los conocimientos de otras disciplinas.
+- **Evidencia de aprendizaje**: Comprendo los principios y conocimientos tecnológicos e informáticos que hacen posible el funcionamiento de productos tecnológicos actuales.
+```
+
+```{tab-item} Criterios de evaluación
+- Actividades desarrolladas en su totalidad. ✔️
+- Participación en clase. ✔️
+- Explicación clara de conceptos. ✔️
+- Argumentación de ideas. ✔️
+- Cumplimiento de las reglas del aula. ✔️
+```
+
+:::
+
+:::{pull-quote}
+> "En esta guía, el estudiante comprenderá los conceptos de hardware y software. Así mismo argumentará la importancia del uso de la CPU y la memoria RAM al momento de procesar información. Estos conceptos permitirán más adelante entender el concepto de **lógica computacional**".
+
+-- Camilo Fonseca
+:::
+
+---
+## A00: Introducción (+0,20)
+{bdg-light}`Exploración`
+
+1. TRANSCRIBA en su cuaderno el objetivo, las orientaciones curriculares y los criterios de evaluación de la presente guía.
+2. LEA el mensaje de entrada de la guía y en su cuaderno responda:
+    - ¿Qué tienen en común un smartphone, un smartTV, un computador y una tablet? 
+
+---
+## A01: Concepto de hardware (+0,20)
+{bdg-info}`Estructuración`
+
+1. Lea la siguiente definición:
+
+:::{admonition} CONCEPTO DE HARDWARE
+:class: tip
+El **HARDWARE**, es el conjunto de componentes de un **sistema informático** (por ejemplo un computador) los cuales se pueden ver o tocar.
+
+Estos componentes se clasifican en componentes de entrada, salida, procesamiento, memoria y almacenamiento.
+
+A continuación se muestran algunos ejemplos:
+
+- **Dispositivos de entrada:** Teclados, mouse, micrófonos
+- **Dispositivos de salida:** Monitores, impresoras, bafles
+- **Procesamiento:** CPU
+- **Memoria:** memoria RAM, memoria CACHE
+- **Almacenamiento:** Discos duros, memorias USB
+:::
+
+2. Acorde a la definición **CONCEPTO DE HARDWARE**, en su cuaderno RESPONDA las siguientes preguntas:
+
+    - ¿Qué es el hardware?
+    - ¿De que se compone el hardware de un sistema informático?
+    - ¿El concepto de hardware solo puede aplicarse a computadores? ¿Por qué?
+
+3. En su cuaderno CREE un **mapa conceptual** que muestre los diferentes componentes del hardware.
+
+4. En el **mapa conceptual** recien creado, ADICIONE dos ejemplos por cada componente.
+
+---
+## A02: La CPU (+0,20)
+{bdg-info}`Estructuración`
+
+1. Lea la siguiente definición:
+
+:::{admonition} CONCEPTO DE CPU
+:class: tip
+
+```{figure} ./recursos/image01.png
+:align: center
+:width: 300
+Modelo de CPU 
+```
+
+La CPU es considerada el "cerebro" del computador. Es el elemento principal que se encarga de:
+
+- Procesar todas las instrucciones y cálculos del sistema
+- Coordinar el funcionamiento de los demás componentes
+- Ejecutar los programas y aplicaciones
+
+La CPU está compuesta principalmente por:
+
+- **Unidad de control**: Coordina y dirige todas las operaciones.
+- **ALU**: Unidad Lógica Aritmética. Realiza cálculos matemáticos y operaciones lógicas
+- **Registros**: Son unidades pequeñas de memoria de alta velocidad
+
+La velocidad de la CPU se mide en Hertz (Hz) y determina qué tan rápido puede procesar las instrucciones. A mayor velocidad, mejor rendimiento del sistema.
+
+:::
+
+2. Acorde a la definición **CONCEPTO DE CPU**, en su cuaderno RESPONDA las siguientes preguntas:
+
+    - ¿Qué es la CPU?
+    - ¿Por qué la CPU es considerada el cerebro del computador?
+    - ¿En que se mide la velocidad de las CPUs?
+    - ¿Qué significa que una velocidad en la CPU sea alta o baja?
+
+3. En su cuaderno CREE un **mapa conceptual** de los tres principales componentes de la CPU y descríbalos.
+
+4. En Internet, CONSULTE 3 marcas de fabricantes de CPU y descríbalas en su cuaderno.
+
+---
+## A03: Memoria RAM (+0,20)
+{bdg-info}`Estructuración`
+
+1. Lea la siguiente definición:
+
+:::{admonition} CONCEPTO DE MEMORIA RAM
+:class: tip
+
+```{figure} ./recursos/image02.png
+:align: center
+:width: 300
+Modelo de memoria RAM 
+```
+
+La memoria RAM (Memoria de acceso aleatorio) tiene las siguientes funciones:
+
+- ALMACENA temporalmente los datos y programas que el computador está usando activamente.
+- ACCEDE rápidamente a la información (SI y SOLO SI el equipo está encendido).
+
+Las características de la memoria RAM son:
+
+- Se borra cuando se apaga el computador (memoria volátil).
+- A mayor cantidad de RAM, más programas pueden ejecutarse simultáneamente.
+- Su velocidad afecta directamente el rendimiento del sistema.
+- Es diferente al almacenamiento permanente (disco duro) porque la memoria RAM es temporal.
+
+:::
+
+2. Acorde a la definición **CONCEPTO DE MEMORIA RAM**, en su cuaderno responda las siguientes preguntas:
+
+    - ¿Qué es la memoria RAM?
+    - ¿De que se encarga la memoria RAM?
+    - ¿Por qué la memoria RAM es tan importante al momento de procesar la información?
+    - ¿Cuales son las características de la memoria RAM?
+
+3. En Internet, CONSULTE las diferentes generaciones que han tenido las memorias RAM y con esta información en su cuaderno CREE un mapa conceptual.
+
+---
+## A04: Software (+0,20)
+{bdg-info}`Estructuración`
+
+1. Lea la siguiente definición:
+
+:::{admonition} CONCEPTO DE SOFTWARE
+:class: tip
+
+```{figure} ./recursos/image03.png
+:align: center
+:width: 300
+Ejemplo de interfaz gráfica
+```
+El SOFTWARE, es el conjunto de: **programas**, **bases de datos**, diferentes tipos de **archivos** y **documentación** que le dicen al HARDWARE qué hacer. A diferencia del hardware que es físico y tangible, el software no se puede tocar.
+
+El software solo puede verse su funcionamiento en la pantalla. El software es la parte lógica e intangible de un sistema informático. El software se clasifica de la siguiente manera:
+
+- **Sistema:** Software que controla el funcionamiento básico del computador como por ejemplo: Firmware BIOS, Firmware UEFI, OS Windows, OS Linux, MacOS, Controladores o Drivers.
+- **Aplicaciones:** Diferente software que funciona sobre un sistema operativo como por ejemplo: Procesadores de texto, navegadores web, juegos, editores de imagen, modelado en 3D. La mayoría suelen tener interfáz gráfica.
+
+Una **interfaz gráfica** es un sistema que permite a los usuarios interactuar con dispositivos electrónicos a través de elementos visuales en la pantalla, como iconos, botones y menús. Esto facilita la realización de acciones sin necesidad de conocimientos de programación, haciendo la experiencia más intuitiva y accesible.
+:::
+
+2. Acorde a la definición **CONCEPTO DE SOFTWARE**, en su cuaderno responda las siguientes preguntas:
+    - ¿Qué es el software?
+    - ¿En qué se diferencian el HARDWARE y el SOFTWARE?
+    - ¿Por qué los controladores de HARDWARE no necesitan interfaz gráfica?
+
+3. En su cuaderno, CREE un mapa conceptual de la clasificación del software.
+
+4. En Internet, CONSULTE 2 ejemplos de sistemas operativos de la empresa MICROSOFT, un ejemplo de sistema operativo de la empresa GOOGLE y 3 ejemplos de sistemas operativo de la empresa APPLE. Luego descríbalos en su cuaderno.
+
+5. En Internet, CONSULTE dos ejemplos para cada una de las siguientes aplicaciones, luego descríbalas en su cuaderno:
+    - Procesadores de texto
+    - Navegadores web
+    - Videojuegos
+    - Editores de imágenes
+    - Modelado 3D
+
+---
+## A05: CPU and RAM (+4,0)
+{bdg-danger}`Transferencia`
+
+1. Con los temas vistos hasta ahora, en **UNA HOJA DE CUADERNO**, con sus palabras (no usar IA) RESPONDA la siguiente pregunta:
+    - ¿Por qué la memoria RAM y la CPU son tan importantes al momento de procesar información?
+2. PRESENTE su cuaderno con el desarrollo de todas las actividades.
+3. RESPONDA las preguntas del docente para comprobar la comprensión de los temas.

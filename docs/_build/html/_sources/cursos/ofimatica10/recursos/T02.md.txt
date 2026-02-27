@@ -1,5 +1,11 @@
 # T02: Ofimática
 
+A continuación se muestran diferentes conceptos relacionados con la ofimática.
+
+
+---
+## Concepto de Ofimática
+
 La **ofimática** se refiere al conjunto de técnicas, aplicaciones y herramientas informáticas que se utilizan para optimizar, automatizar y mejorar los procedimientos o tareas relacionadas con el trabajo de oficina. El término "ofimática" es una combinación de las palabras "oficina" e "informática".
 
 Las principales áreas que abarca la ofimática incluyen:
