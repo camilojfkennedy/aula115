@@ -1,0 +1,144 @@
+# Guía 01: Historia de la computación personal
+
+:::{list-table}
+:header-rows: 0
+* - ![escudo](../../../escudo.png){width=250px}
+  - ```{list-table}
+      * - **INSTITUCIÓN EDUCATIVA**: John F. Kennedy
+      * - **DOCENTE**: Julian Camilo Fonseca Romero
+      * - **ASIGNATURA**: Tecnología e Informática
+      * - **GRADO**: DÉCIMO
+      * - **TIEMPO**: 10 semanas (2 horas / semana)
+      * - **TOTAL**: 20 horas
+      * - **TIEMPO DE TRABAJO**: 20 horas
+
+    ```
+:::
+
+:::{tab-set}
+```{tab-item} Objetivo
+- **Temática**: 
+- **Objetivo de aprendizaje**: 
+```
+
+```{tab-item} Orientaciones curriculares
+- **Componente**: 
+- **Competencia**: 
+- **Evidencia de aprendizaje**: 
+```
+
+```{tab-item} Criterios de evaluación
+- Actividades desarrolladas en su totalidad. ✔️
+- Participación en clase. ✔️
+- Explicación clara de conceptos. ✔️
+- Argumentación de ideas. ✔️
+- Cumplimiento de las reglas del aula. ✔️
+```
+
+```{tab-item} Recursos
+- [**TEXTO:** HISTORIA DE LA COMPUTACIÓN PERSONAL](../recursos/T01.md)
+```
+:::
+
+## Mensaje del autor
+
+:::{pull-quote}
+> “En esta guía, el estudiante conoce como se originó el INTERNET, el hardware y el software presentes en la computación personal.”
+
+-- Camilo Fonseca
+:::
+
+
+---
+## A00: Introducción (+0,1)
+{bdg-light}`Exploración`
+
+1. TRANSCRIBA en su cuaderno el objetivo, las orientaciones curriculares y los criterios de evaluación de la presente guía.
+
+2. LEA el **mensaje del autor** y en su cuaderno responda:
+    - ¿Por qué es importante estudiar la historia de la computación personal? 
+
+---
+## A01: Orígenes de la primera red (+0,1)
+{bdg-info}`Estructuración`
+
+1. En su cuaderno, responda las siguientes preguntas:
+
+    - ¿Cómo se llamó la primera red?
+    - ¿En que año y en que lugar se creó la primera red?
+    - ¿Quienes crearon la tecnología para que funcionara el INTERNET?
+    - ¿En que año se creó la tecnología para que funcionara el INTERNET y que protocolos fueron usados en dicha tecnología?
+
+---
+## A02: ARPANET (+0,1)
+{bdg-warning}`Actividad práctica`
+
+1. En su cuaderno dibuje el mapa de la primera red y responda las siguientes preguntas:
+
+    - ¿Cuántos nodos en el occidente estaban interconectados?
+    - ¿Cuántos nodos en el oriente estaban interconectados?
+
+---
+## A03: Primera página web (+0,1)
+{bdg-info}`Estructuración`
+
+1. Responda la siguiente pregunta en su cuaderno:
+    - ¿En que año se crea el primer navegador y la primera página web?
+
+2. Traduzca los contenidos de la primera página web y haga un breve resumen de dichos contenidos en su cuaderno.
+
+---
+## A04: Primer navegador MOSAIC (+0,1)
+{bdg-danger}`Transferencia`
+
+1. En su cuaderno DIBUJE la *interfaz gráfica* del primer navegador web **MOSAIC** y realice una breve descripción de las diferencias de este primer navegador con navegadores actuales como GOOGLE CHROME, MOZILLA FIREFOX o EDGE.
+
+---
+## A05: Orígenes del hardware (+0,1)
+{bdg-info}`Estructuración`
+
+1. En su cuaderno responda las siguientes preguntas:
+
+    - ¿Cuál fue la primera computadora personal de la historia y en que año se creo?
+    - ¿Qué lenguajes de programación se usaron en la primera computadora personal?
+    - ¿Cómo APPLE se relaciona con la historia de la computadora personal?
+    - ¿Quién fue Steve Jobs?
+    - ¿Cómo se democratizó el uso de las computadoras personales?
+
+---
+## A06: Apple - Macintosh (+0,1)
+{bdg-info}`Estructuración` {bdg-danger}`Transferencia`
+
+1. En su cuaderno responda:
+    - ¿Qué características tenía la primera Macintosh y en que año fue creada?
+
+2. En su cuaderno DIBUJE un bosquejo de la primera Macintosh
+
+3. Observe el artículo donde se describe la Macintosh y en su cuaderno describa el significado de las siguientes frases:
+
+    - *“La primera APPLE que se puede llevar en un bolso”*
+    - *“Si puedes señalar, puedes usar Macintosh”*
+    - *“PERSONALIDAD DE MACINTOSH: Lado divertido, Lado serio”*
+    - *“Muy pronto habrán dos tipos de personas: Aquellos que usan computadoras y aquellos que usan APPLES”*
+
+---
+## A07: Microsoft (+0,1)
+{bdg-info}`Estructuración`
+
+1. En su cuaderno responda:
+    - ¿En que año se creo el sistema operativo Microsoft DOS (MS-DOS) y por que fue tan importante?
+
+2. Con ayuda de INTERNET o IA, en su cuaderno realice una descripción de los siguientes sistemas operativos de Microsoft:
+
+    - Windows 3.1
+    - Windows 95
+    - Windows 98
+    - Windows 2000
+    - Windows Me
+    - Windows XP
+    - Windows Vista
+    - Windows 7
+    - Windows 8
+    - Windows 8.1
+    - Windows 10
+    - Windows 11

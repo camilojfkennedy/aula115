@@ -20,8 +20,7 @@
 :::{toctree}
 :maxdepth: 2
 
-A01.md
-A02.md
+G01.md
 A03.md
 R01.md
 :::

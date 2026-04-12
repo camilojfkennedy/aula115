@@ -1,37 +1,48 @@
-# PORTAL: aula 115
+# Introducción
 
 ![Sala 115](./recursos/aula115.png)
 
-El portal web del aula 115 es un **recurso didáctico digital**, usado en las clases que se dan en el ***aula de informática 115*** de la [Institución Educativa John F. Kennedy](https://www.jfkennedy.edu.co) en Puerto Boyacá, Boyacá (Colombia).
+:::{include} ../README.md
+:::
 
 :::{admonition} DOCENTE: Julian Camilo Fonseca Romero
 :class: seealso
-Ingeniero en Mecatrónica (2012), Especialista en Seguridad de la Información (2015), Magister en Ingeniería de Software y Sistemas Informáticos (2017). 
 
+```{figure} ./recursos/camilo.fonseca.png
+:align: center
+:width: 180
+```
+
+Ingeniero en Mecatrónica (2012), Especialista en Seguridad de la Información (2015), Magister en Ingeniería de Software y Sistemas Informáticos (2017).
+
+**email:** camilo.fonseca@jfkennedy.edu.co
 :::
 
-:::{admonition} MODELO PEDAGÓGICO: ACTIVO
+:::{admonition} MODELO PEDAGÓGICO: Activo
 :class: seealso
-
-Secuencia didáctica:
+Fórmula secuencia didáctica:
 
 $$
 f(x)=transferencia(actividadPractica(estructuración(exploración)))
 $$
 
-**Principios de la clase**:
+:::
 
+::: {admonition} PRINCIPIOS DE LA CLASE
+:class: seealso
 1. "Se aprende haciendo".
 2. "Se aprende enseñando".
 3. "Todo se sustenta".
 :::
 
+---
+
 :::{toctree}
 :hidden:
 :maxdepth: 2
 
-intro.md
 informacion.md
+reglas.md
 descargas.md
 :::
 
@@ -52,7 +63,7 @@ cursos/programacion11/index.md
 :maxdepth: 2
 :caption: GESTIÓN
 
-gestion/bitacora.md
 gestion/proyectos.md
+gestion/bitacora.md
 gestion/referencias.md
 :::

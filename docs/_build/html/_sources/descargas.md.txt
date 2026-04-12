@@ -1,4 +1,4 @@
-# Descargas 📚
+# Descargas
 
 A continuación encuentra varios **recursos digitales** usados en el desarrollo de los cursos.
 

@@ -45,8 +45,8 @@ pygments_style = "sphinx"
 pygments_dark_style = "monokai"
 
 html_theme_options = {
-    "light_logo": "logo_light.png",
-    "dark_logo": "logo_light.png",
+    "light_logo": "logo.png",
+    "dark_logo": "logo.png",
     "sidebar_hide_name": True,
     "light_css_variables": {
         "color-guilabel-text": "#FF0000",

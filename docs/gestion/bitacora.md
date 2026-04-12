@@ -2,15 +2,34 @@
 
 Registros de año 2026 (año 1/3)
 
+---
+## Modificaciones al portal (nuevo logo)
+
+```{article-info}
+:avatar: ./recursos/camilo.fonseca.png
+:author: Camilo Fonseca
+:date: 12 Abril, 2026
+:read-time: 02:00 a.m.
+```
+
+Se realizan las siguientes modificaciones en el portal:
+
+- Supresión de introducción.
+- Introducción asociada con archivo README.md en portada principal del PORTAL.
+- Cambio de logo del portal.
+- Redacción de la información.
+- Unión de trabajos de periodo 01 de **lógica computacional 8** y se crea una sola guía.
+- Reestructuración de proyectos de aula.
+
 
 ---
-## PORTAL: aula 115
+## Modificaciones al portal (modelo de guía)
 
 ```{article-info}
 :avatar: ./recursos/camilo.fonseca.png
 :author: Camilo Fonseca
 :date: 27 Feb, 2026
-:read-time: 11:13 a.m
+:read-time: 11:13 a.m.
 ```
 
 Acorde a la teoría de didácticas innovadoras, el presente **recurso didáctico digital** de ser un EVA (entorno virtual de aprendizaje), ahora se identifica como un portal web. Igualmente se corrige y modifica lo siguiente:
@@ -34,7 +53,7 @@ Acorde a la teoría de didácticas innovadoras, el presente **recurso didáctico
 :avatar: ./recursos/camilo.fonseca.png
 :author: Camilo Fonseca
 :date: 26 Ene, 2026
-:read-time: 1:00 p.m
+:read-time: 1:00 p.m.
 ```
 
 Inicia el año escolar 2026. Se explica el acceso al aula 115, se asignan PCs y grupos de trabajo. Los estudiantes registran en hojas sus PCs asignados. 

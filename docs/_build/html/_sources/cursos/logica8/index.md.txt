@@ -2,7 +2,7 @@
 
 Bienvenido al curso lógica computacional de grado octavo.
 
-Acceda a las actividades según el periodo.
+Acceda a las guías según el periodo.
 
 :::{toctree}
 :maxdepth: 3

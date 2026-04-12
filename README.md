@@ -1,3 +1,7 @@
-# EVA: aula 115
+El portal web del **aula 115** es un recurso didáctico digital usado por los estudiantes de la [*Institución Educativa John F. Kennedy*](https://www.jfkennedy.edu.co) para fortalecer sus competencias en Informática.
 
-EVA del aula 115 de la Institución Educativa John F. Kennedy de Puerto Boyacá (Boyacá), Colombia
+En el aula 115 se orientan las siguientes asignaturas:
+
+- Lógica computacional.
+- Informática.
+- Ofimática y Programación.
