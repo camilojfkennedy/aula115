@@ -13,7 +13,7 @@ author = 'Julian Camilo Fonseca Romero'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ["myst_parser","sphinx_design","sphinxcontrib.mermaid"]
+extensions = ["myst_parser","sphinx_design"]
 
 myst_enable_extensions = [
     "dollarmath", #ecuaciones matematicas con $
