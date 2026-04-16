@@ -1,51 +1,122 @@
-# T02: Algoritmos
+# T02: Diagramas de flujo
 
-Un algoritmo es un conjunto de **instrucciones** que le dicen a un ser humano COMO REALIZAR una tarea específica, dichas instrucciones pueden estar escritas en código o lenguaje natural.
+Un diagrama de flujo es un **esquema gráfico** donde se muestra el paso a paso para cumplir un objetivo.
 
-Un algoritmo puede ser expresado con palabras o números.
+Los diagramas de flujo usados en informática, son útiles porque ayudan a los programadores a organizar y visualizar el código haciendo más fácil encontrar y corregir errores.
 
-Un algoritmo es cualquier actividad o evento con inicio y final, que tenga una serie de pasos lógicos para lograr su ejecución. Y estos suelen ser representados mediante diagramas de flujo. 
 
-Existen dos tipos de algoritmos:
-
-- Algoritmos cualitativos (informales)
-- Algoritmos cuantitativos (formales)
+A continuación se explican los símbolos que componen los diagramas de flujo del estándar (ANSI/ISO):
 
 ---
-## Algoritmos cualitativos (informales)
+## Operación
 
-No requieren de cálculos numéricos para su ejecución. En su lugar, se deben ejecutar secuencias lógicas. Por ejemplo: las instrucciones para ensamblar un artefacto.
+:::{list-table}
+* - ```{figure} ./recursos/image01.png
+    :width: 250
+    Instrucción
+    ```
+:::
+
+Se usa para describir cualquier actividad, acción o instrucción. En el interior se escribe una descripción de la actividad.
+
+:::{admonition} ¿Qué es una instrucción?
+:class: hint
+
+Una **instrucción** es una orden o indicación que se da para realizar una acción específica. Puede estar presente en distintos ámbitos. Por ejemplo:
+
+- **Una instrucción de educación:** Indicaciones que un profesor da a los estudiantes sobre cómo realizar una tarea o actividad.
+- **Instrucciones de programación:** Son comandos que le indican a una computadora qué hacer. Las instrucciones son parte del código fuente de un programa.
+- **Instrucciones de cocina:** Son pasos a seguir para una receta.
+- **Instrucciones técnicas:** Guías que explican cómo usar o ensamblar un producto. También aplica en el software.
+
+### Reglas para dar buenas instrucciones
+
+- **CLARIDAD:** Ayudan a entender qué se espera hacer.
+- **EFICIENCIA:** Permiten realizar tareas de manera correcta y rápida.
+- **SEGURIDAD:** En ciertos contextos, como el uso de maquinaria, las instrucciones son vitales para evitar accidentes.
+:::
 
 ---
-## Algoritmos cuantitativos (formales)
+## Límites de proceso
 
-Requieren de cálculos numéricos (por ejemplo la solución de una ecuación). Si el cálculo numérico puede ser procesado por una persona, entonces es un **algoritmo cuantitativo no computacional**.
+:::{list-table}
+* - ```{figure} ./recursos/image02.png
+    :width: 250
+    Inicio - Fin
+    ```
+:::
 
-Si los cálculos numéricos son muy complejos entonces requieren poder computacional. A esta clase de algoritmos se les dice que son **algoritmos cuantitativos computacionales**. 
-
-- **Algoritmo cuantitativo no computacional:** Estos algoritmos requieren de operaciones numéricas simples, que un ser humano puede resolver sin necesidad de usar un sistema computacional. Por ejemplo una receta de cocina, un cálculo numérico sencillo o las instrucciones para llegar a un lugar.
-- **Algoritmo cuantitativo computacional:** Estos algoritmos requieren de operaciones numéricas complejas que deben resolverse con dispositivos de cálculo, como una computadora o calculadora. Ecuaciones de mucha complejidad o códigos que solo pueden ser interpretados por una máquina, son ejemplos de este tipo de algoritmo.
+Indica el inicio (círculo blanco) y final (círculo negro) del algoritmo. 
 
 ---
-## Software Vs Programa
+## Punto de decisión
 
-A continuación se describen las diferencias entre un software y un programa.
+:::{list-table}
+* - ```{figure} ./recursos/image03.png
+    :width: 150
+    Condicional
+    ```
+:::
 
-### Software
+Denota que en este punto se toma una decisión. Las únicas posibles opciones son SI/NO.
 
-Un **Software** es el conjunto de **programas**, bases de datos, archivos y documentación que permiten realizar diferentes tareas en un sistema computacional.
+---
+## Conector
 
-Existen dos tipos de software: Software de sistema y software de aplicación.
+:::{list-table}
+* - ```{figure} ./recursos/image04.png
+    :width: 150
+    Conexión
+    ```
+:::
 
-- **Software de sistema:** Ejecutan todas las funciones básicas de una computadora (por ejemplo encender la máquina, mostrar imagen en pantalla, monitorear temperatura, comunicarse con los diferentes periféricos, etc.). El **software de sistema** controla e intercambia datos con el hardware. Un ejemplo de software de sistema es el sistema operativo Windows. Inclusive los controladores o drivers también hacen parte del software de sistema.
-- **Software de aplicación:** Permite al usuario trabajar en una tarea específica (procesar texto, edición de video, edición de imágenes, navegación en INTERNET, desarrollo de software, etc.). Por lo general, el software de aplicación trabaja en función del software de sistema.
+Señala que la salida de un proceso/algoritmo, puede ser la entrada de otro proceso.
 
-### Programa
+---
+## Dirección de flujo
 
-> *Un PROGRAMA es un **algoritmo cuantitativo computacional**…*
+:::{list-table}
+* - ```{figure} ./recursos/image05.png
+    :width: 150
+    Dirección
+    ```
+:::
 
-Un programa es un conjunto de instrucciones que le dicen a una computadora COMO HACER una tarea específica. Las instrucciones están escritas en código y son diseñadas por programadores con conocimiento en un lenguaje de programación.
+Denota la dirección y el orden de los pasos del proceso/algoritmo.
 
-A diferencia de un algoritmo, las instrucciones NO pueden ser escritas en lenguaje natural.
+---
+## Entrada manual
 
-> “Aunque se usa el término Software como sinónimo, la realidad es que un Programa es solo una parte del Software”.
+:::{list-table}
+* - ```{figure} ./recursos/image06.png
+    :width: 150
+    Entrada
+    ```
+:::
+
+Permite una entrada manual del usuario para ser procesada en el algoritmo.
+
+
+---
+## Documento
+
+:::{list-table}
+* - ```{figure} ./recursos/image07.png
+    :width: 150
+    Documento
+    ```
+:::
+
+Documento o registro generado en el proceso/algoritmo.
+
+---
+## Base de datos
+
+:::{list-table}
+* - ```{figure} ./recursos/image08.png
+    :width: 120
+    Base de datos
+    ```
+:::
+
+Punto de archivo donde se retiene la información. En espera que se cumplan otras condiciones para continuar con el proceso/algoritmo.

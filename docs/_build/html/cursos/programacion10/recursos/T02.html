@@ -3,12 +3,12 @@
   <head><meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
-<link rel="index" title="Índice" href="../../../genindex.html"><link rel="search" title="Búsqueda" href="../../../search.html"><link rel="next" title="T03: Diagramas de flujo" href="T03.html"><link rel="prev" title="T01: Instrucciones, software, datos e información" href="T01.html">
+<link rel="index" title="Índice" href="../../../genindex.html"><link rel="search" title="Búsqueda" href="../../../search.html"><link rel="next" title="T03: Algoritmos" href="T03.html"><link rel="prev" title="T01: Fundamentos de arquitectura y lógica computacional" href="T01.html">
         <link rel="prefetch" href="../../../_static/logo.png" as="image">
         <link rel="prefetch" href="../../../_static/logo.png" as="image">
 
     <!-- Generated with Sphinx 8.2.3 and Furo 2025.09.25 -->
-        <title>T02: Algoritmos - PORTAL: aula 115</title>
+        <title>T02: Diagramas de flujo - PORTAL: aula 115</title>
       <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css?v=03e43079" />
     <link rel="stylesheet" type="text/css" href="../../../_static/styles/furo.css?v=580074bf" />
     <link rel="stylesheet" type="text/css" href="../../../_static/sphinx-design.min.css?v=95c83b7e" />
@@ -326,14 +326,13 @@
 </li>
 <li class="toctree-l1 current has-children"><a class="reference internal" href="../index.html">Programación 10</a><input aria-label="Toggle navigation of Programación 10" checked="" class="toctree-checkbox" id="toctree-checkbox-19" name="toctree-checkbox-19" role="switch" type="checkbox"/><label for="toctree-checkbox-19"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul class="current">
 <li class="toctree-l2 has-children"><a class="reference internal" href="../periodo01/index.html">Periodo 01</a><input aria-label="Toggle navigation of Periodo 01" class="toctree-checkbox" id="toctree-checkbox-20" name="toctree-checkbox-20" role="switch" type="checkbox"/><label for="toctree-checkbox-20"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
-<li class="toctree-l3"><a class="reference internal" href="../periodo01/A01.html">A01: Instrucciones, software, datos e información</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../periodo01/A02.html">A02: Algoritmos</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../periodo01/G01.html">Guía 01: Fundamentos</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../periodo01/R01.html">Plan de refuerzo 01</a></li>
 </ul>
 </li>
 <li class="toctree-l2 has-children"><a class="reference internal" href="../periodo02/index.html">Periodo 02</a><input aria-label="Toggle navigation of Periodo 02" class="toctree-checkbox" id="toctree-checkbox-21" name="toctree-checkbox-21" role="switch" type="checkbox"/><label for="toctree-checkbox-21"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
-<li class="toctree-l3"><a class="reference internal" href="../periodo02/A01.html">A01: Diagramas de flujo</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../periodo02/A02.html">A02: Ejercicios diagramas de flujo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../periodo02/G01.html">Guía 01: Diagramas de flujo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../periodo02/G02.html">Guía 02: Desarrollo de algoritmos</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../periodo02/R02.html">Plan de refuerzo 02</a></li>
 </ul>
 </li>
@@ -350,9 +349,9 @@
 </ul>
 </li>
 <li class="toctree-l2 current has-children"><a class="reference internal" href="index.html">Recursos</a><input aria-label="Toggle navigation of Recursos" checked="" class="toctree-checkbox" id="toctree-checkbox-24" name="toctree-checkbox-24" role="switch" type="checkbox"/><label for="toctree-checkbox-24"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="T01.html">T01: Instrucciones, software, datos e información</a></li>
-<li class="toctree-l3 current current-page"><a class="current reference internal" href="#">T02: Algoritmos</a></li>
-<li class="toctree-l3"><a class="reference internal" href="T03.html">T03: Diagramas de flujo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="T01.html">T01: Fundamentos de arquitectura y lógica computacional</a></li>
+<li class="toctree-l3 current current-page"><a class="current reference internal" href="#">T02: Diagramas de flujo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="T03.html">T03: Algoritmos</a></li>
 <li class="toctree-l3"><a class="reference internal" href="T04.html">T04: Lenguaje de programación PYTHON</a></li>
 <li class="toctree-l3"><a class="reference internal" href="T05.html">T05: Variables y sus tipos</a></li>
 </ul>
@@ -435,55 +434,186 @@
           </label>
         </div>
         <article role="main" id="furo-main-content">
-          <section class="tex2jax_ignore mathjax_ignore" id="t02-algoritmos">
-<h1>T02: Algoritmos<a class="headerlink" href="#t02-algoritmos" title="Link to this heading">¶</a></h1>
-<p>Un algoritmo es un conjunto de <strong>instrucciones</strong> que le dicen a un ser humano COMO REALIZAR una tarea específica, dichas instrucciones pueden estar escritas en código o lenguaje natural.</p>
-<p>Un algoritmo puede ser expresado con palabras o números.</p>
-<p>Un algoritmo es cualquier actividad o evento con inicio y final, que tenga una serie de pasos lógicos para lograr su ejecución. Y estos suelen ser representados mediante diagramas de flujo.</p>
-<p>Existen dos tipos de algoritmos:</p>
-<ul class="simple">
-<li><p>Algoritmos cualitativos (informales)</p></li>
-<li><p>Algoritmos cuantitativos (formales)</p></li>
-</ul>
+          <section class="tex2jax_ignore mathjax_ignore" id="t02-diagramas-de-flujo">
+<h1>T02: Diagramas de flujo<a class="headerlink" href="#t02-diagramas-de-flujo" title="Link to this heading">¶</a></h1>
+<p>Un diagrama de flujo es un <strong>esquema gráfico</strong> donde se muestra el paso a paso para cumplir un objetivo.</p>
+<p>Los diagramas de flujo usados en informática, son útiles porque ayudan a los programadores a organizar y visualizar el código haciendo más fácil encontrar y corregir errores.</p>
+<p>A continuación se explican los símbolos que componen los diagramas de flujo del estándar (ANSI/ISO):</p>
 <hr class="docutils" />
-<section id="algoritmos-cualitativos-informales">
-<h2>Algoritmos cualitativos (informales)<a class="headerlink" href="#algoritmos-cualitativos-informales" title="Link to this heading">¶</a></h2>
-<p>No requieren de cálculos numéricos para su ejecución. En su lugar, se deben ejecutar secuencias lógicas. Por ejemplo: las instrucciones para ensamblar un artefacto.</p>
+<section id="operacion">
+<h2>Operación<a class="headerlink" href="#operacion" title="Link to this heading">¶</a></h2>
+<div class="table-wrapper docutils container">
+<table class="docutils align-default">
+<tbody>
+<tr class="row-odd"><td><figure class="align-default" id="id1">
+<a class="reference internal image-reference" href="../../../_images/image0121.png"><img alt="../../../_images/image0121.png" src="../../../_images/image0121.png" style="width: 250px;" />
+</a>
+<figcaption>
+<p><span class="caption-text">Instrucción</span><a class="headerlink" href="#id1" title="Link to this image">¶</a></p>
+</figcaption>
+</figure>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Se usa para describir cualquier actividad, acción o instrucción. En el interior se escribe una descripción de la actividad.</p>
+<div class="hint admonition">
+<p class="admonition-title">¿Qué es una instrucción?</p>
+<p>Una <strong>instrucción</strong> es una orden o indicación que se da para realizar una acción específica. Puede estar presente en distintos ámbitos. Por ejemplo:</p>
+<ul class="simple">
+<li><p><strong>Una instrucción de educación:</strong> Indicaciones que un profesor da a los estudiantes sobre cómo realizar una tarea o actividad.</p></li>
+<li><p><strong>Instrucciones de programación:</strong> Son comandos que le indican a una computadora qué hacer. Las instrucciones son parte del código fuente de un programa.</p></li>
+<li><p><strong>Instrucciones de cocina:</strong> Son pasos a seguir para una receta.</p></li>
+<li><p><strong>Instrucciones técnicas:</strong> Guías que explican cómo usar o ensamblar un producto. También aplica en el software.</p></li>
+</ul>
+<p class="rubric" id="reglas-para-dar-buenas-instrucciones">Reglas para dar buenas instrucciones</p>
+<ul class="simple">
+<li><p><strong>CLARIDAD:</strong> Ayudan a entender qué se espera hacer.</p></li>
+<li><p><strong>EFICIENCIA:</strong> Permiten realizar tareas de manera correcta y rápida.</p></li>
+<li><p><strong>SEGURIDAD:</strong> En ciertos contextos, como el uso de maquinaria, las instrucciones son vitales para evitar accidentes.</p></li>
+</ul>
+</div>
 </section>
 <hr class="docutils" />
-<section id="algoritmos-cuantitativos-formales">
-<h2>Algoritmos cuantitativos (formales)<a class="headerlink" href="#algoritmos-cuantitativos-formales" title="Link to this heading">¶</a></h2>
-<p>Requieren de cálculos numéricos (por ejemplo la solución de una ecuación). Si el cálculo numérico puede ser procesado por una persona, entonces es un <strong>algoritmo cuantitativo no computacional</strong>.</p>
-<p>Si los cálculos numéricos son muy complejos entonces requieren poder computacional. A esta clase de algoritmos se les dice que son <strong>algoritmos cuantitativos computacionales</strong>.</p>
-<ul class="simple">
-<li><p><strong>Algoritmo cuantitativo no computacional:</strong> Estos algoritmos requieren de operaciones numéricas simples, que un ser humano puede resolver sin necesidad de usar un sistema computacional. Por ejemplo una receta de cocina, un cálculo numérico sencillo o las instrucciones para llegar a un lugar.</p></li>
-<li><p><strong>Algoritmo cuantitativo computacional:</strong> Estos algoritmos requieren de operaciones numéricas complejas que deben resolverse con dispositivos de cálculo, como una computadora o calculadora. Ecuaciones de mucha complejidad o códigos que solo pueden ser interpretados por una máquina, son ejemplos de este tipo de algoritmo.</p></li>
-</ul>
+<section id="limites-de-proceso">
+<h2>Límites de proceso<a class="headerlink" href="#limites-de-proceso" title="Link to this heading">¶</a></h2>
+<div class="table-wrapper docutils container">
+<table class="docutils align-default">
+<tbody>
+<tr class="row-odd"><td><figure class="align-default" id="id2">
+<a class="reference internal image-reference" href="../../../_images/image0221.png"><img alt="../../../_images/image0221.png" src="../../../_images/image0221.png" style="width: 250px;" />
+</a>
+<figcaption>
+<p><span class="caption-text">Inicio - Fin</span><a class="headerlink" href="#id2" title="Link to this image">¶</a></p>
+</figcaption>
+</figure>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Indica el inicio (círculo blanco) y final (círculo negro) del algoritmo.</p>
 </section>
 <hr class="docutils" />
-<section id="software-vs-programa">
-<h2>Software Vs Programa<a class="headerlink" href="#software-vs-programa" title="Link to this heading">¶</a></h2>
-<p>A continuación se describen las diferencias entre un software y un programa.</p>
-<section id="software">
-<h3>Software<a class="headerlink" href="#software" title="Link to this heading">¶</a></h3>
-<p>Un <strong>Software</strong> es el conjunto de <strong>programas</strong>, bases de datos, archivos y documentación que permiten realizar diferentes tareas en un sistema computacional.</p>
-<p>Existen dos tipos de software: Software de sistema y software de aplicación.</p>
-<ul class="simple">
-<li><p><strong>Software de sistema:</strong> Ejecutan todas las funciones básicas de una computadora (por ejemplo encender la máquina, mostrar imagen en pantalla, monitorear temperatura, comunicarse con los diferentes periféricos, etc.). El <strong>software de sistema</strong> controla e intercambia datos con el hardware. Un ejemplo de software de sistema es el sistema operativo Windows. Inclusive los controladores o drivers también hacen parte del software de sistema.</p></li>
-<li><p><strong>Software de aplicación:</strong> Permite al usuario trabajar en una tarea específica (procesar texto, edición de video, edición de imágenes, navegación en INTERNET, desarrollo de software, etc.). Por lo general, el software de aplicación trabaja en función del software de sistema.</p></li>
-</ul>
+<section id="punto-de-decision">
+<h2>Punto de decisión<a class="headerlink" href="#punto-de-decision" title="Link to this heading">¶</a></h2>
+<div class="table-wrapper docutils container">
+<table class="docutils align-default">
+<tbody>
+<tr class="row-odd"><td><figure class="align-default" id="id3">
+<a class="reference internal image-reference" href="../../../_images/image0317.png"><img alt="../../../_images/image0317.png" src="../../../_images/image0317.png" style="width: 150px;" />
+</a>
+<figcaption>
+<p><span class="caption-text">Condicional</span><a class="headerlink" href="#id3" title="Link to this image">¶</a></p>
+</figcaption>
+</figure>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Denota que en este punto se toma una decisión. Las únicas posibles opciones son SI/NO.</p>
 </section>
-<section id="programa">
-<h3>Programa<a class="headerlink" href="#programa" title="Link to this heading">¶</a></h3>
-<blockquote>
-<div><p><em>Un PROGRAMA es un <strong>algoritmo cuantitativo computacional</strong>…</em></p>
-</div></blockquote>
-<p>Un programa es un conjunto de instrucciones que le dicen a una computadora COMO HACER una tarea específica. Las instrucciones están escritas en código y son diseñadas por programadores con conocimiento en un lenguaje de programación.</p>
-<p>A diferencia de un algoritmo, las instrucciones NO pueden ser escritas en lenguaje natural.</p>
-<blockquote>
-<div><p>“Aunque se usa el término Software como sinónimo, la realidad es que un Programa es solo una parte del Software”.</p>
-</div></blockquote>
+<hr class="docutils" />
+<section id="conector">
+<h2>Conector<a class="headerlink" href="#conector" title="Link to this heading">¶</a></h2>
+<div class="table-wrapper docutils container">
+<table class="docutils align-default">
+<tbody>
+<tr class="row-odd"><td><figure class="align-default" id="id4">
+<a class="reference internal image-reference" href="../../../_images/image0413.png"><img alt="../../../_images/image0413.png" src="../../../_images/image0413.png" style="width: 150px;" />
+</a>
+<figcaption>
+<p><span class="caption-text">Conexión</span><a class="headerlink" href="#id4" title="Link to this image">¶</a></p>
+</figcaption>
+</figure>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Señala que la salida de un proceso/algoritmo, puede ser la entrada de otro proceso.</p>
 </section>
+<hr class="docutils" />
+<section id="direccion-de-flujo">
+<h2>Dirección de flujo<a class="headerlink" href="#direccion-de-flujo" title="Link to this heading">¶</a></h2>
+<div class="table-wrapper docutils container">
+<table class="docutils align-default">
+<tbody>
+<tr class="row-odd"><td><figure class="align-default" id="id5">
+<a class="reference internal image-reference" href="../../../_images/image0510.png"><img alt="../../../_images/image0510.png" src="../../../_images/image0510.png" style="width: 150px;" />
+</a>
+<figcaption>
+<p><span class="caption-text">Dirección</span><a class="headerlink" href="#id5" title="Link to this image">¶</a></p>
+</figcaption>
+</figure>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Denota la dirección y el orden de los pasos del proceso/algoritmo.</p>
+</section>
+<hr class="docutils" />
+<section id="entrada-manual">
+<h2>Entrada manual<a class="headerlink" href="#entrada-manual" title="Link to this heading">¶</a></h2>
+<div class="table-wrapper docutils container">
+<table class="docutils align-default">
+<tbody>
+<tr class="row-odd"><td><figure class="align-default" id="id6">
+<a class="reference internal image-reference" href="../../../_images/image069.png"><img alt="../../../_images/image069.png" src="../../../_images/image069.png" style="width: 150px;" />
+</a>
+<figcaption>
+<p><span class="caption-text">Entrada</span><a class="headerlink" href="#id6" title="Link to this image">¶</a></p>
+</figcaption>
+</figure>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Permite una entrada manual del usuario para ser procesada en el algoritmo.</p>
+</section>
+<hr class="docutils" />
+<section id="documento">
+<h2>Documento<a class="headerlink" href="#documento" title="Link to this heading">¶</a></h2>
+<div class="table-wrapper docutils container">
+<table class="docutils align-default">
+<tbody>
+<tr class="row-odd"><td><figure class="align-default" id="id7">
+<a class="reference internal image-reference" href="../../../_images/image078.png"><img alt="../../../_images/image078.png" src="../../../_images/image078.png" style="width: 150px;" />
+</a>
+<figcaption>
+<p><span class="caption-text">Documento</span><a class="headerlink" href="#id7" title="Link to this image">¶</a></p>
+</figcaption>
+</figure>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Documento o registro generado en el proceso/algoritmo.</p>
+</section>
+<hr class="docutils" />
+<section id="base-de-datos">
+<h2>Base de datos<a class="headerlink" href="#base-de-datos" title="Link to this heading">¶</a></h2>
+<div class="table-wrapper docutils container">
+<table class="docutils align-default">
+<tbody>
+<tr class="row-odd"><td><figure class="align-default" id="id8">
+<a class="reference internal image-reference" href="../../../_images/image088.png"><img alt="../../../_images/image088.png" src="../../../_images/image088.png" style="width: 120px;" />
+</a>
+<figcaption>
+<p><span class="caption-text">Base de datos</span><a class="headerlink" href="#id8" title="Link to this image">¶</a></p>
+</figcaption>
+</figure>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Punto de archivo donde se retiene la información. En espera que se cumplan otras condiciones para continuar con el proceso/algoritmo.</p>
 </section>
 </section>
 
@@ -497,7 +627,7 @@
                 <div class="context">
                   <span>Next</span>
                 </div>
-                <div class="title">T03: Diagramas de flujo</div>
+                <div class="title">T03: Algoritmos</div>
               </div>
               <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
             </a>
@@ -508,7 +638,7 @@
                   <span>Previous</span>
                 </div>
                 
-                <div class="title">T01: Instrucciones, software, datos e información</div>
+                <div class="title">T01: Fundamentos de arquitectura y lógica computacional</div>
                 
               </div>
             </a>
@@ -542,14 +672,15 @@
         <div class="toc-tree-container">
           <div class="toc-tree">
             <ul>
-<li><a class="reference internal" href="#">T02: Algoritmos</a><ul>
-<li><a class="reference internal" href="#algoritmos-cualitativos-informales">Algoritmos cualitativos (informales)</a></li>
-<li><a class="reference internal" href="#algoritmos-cuantitativos-formales">Algoritmos cuantitativos (formales)</a></li>
-<li><a class="reference internal" href="#software-vs-programa">Software Vs Programa</a><ul>
-<li><a class="reference internal" href="#software">Software</a></li>
-<li><a class="reference internal" href="#programa">Programa</a></li>
-</ul>
-</li>
+<li><a class="reference internal" href="#">T02: Diagramas de flujo</a><ul>
+<li><a class="reference internal" href="#operacion">Operación</a></li>
+<li><a class="reference internal" href="#limites-de-proceso">Límites de proceso</a></li>
+<li><a class="reference internal" href="#punto-de-decision">Punto de decisión</a></li>
+<li><a class="reference internal" href="#conector">Conector</a></li>
+<li><a class="reference internal" href="#direccion-de-flujo">Dirección de flujo</a></li>
+<li><a class="reference internal" href="#entrada-manual">Entrada manual</a></li>
+<li><a class="reference internal" href="#documento">Documento</a></li>
+<li><a class="reference internal" href="#base-de-datos">Base de datos</a></li>
 </ul>
 </li>
 </ul>

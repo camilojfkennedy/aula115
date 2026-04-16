@@ -3,6 +3,22 @@
 Registros de año 2026 (año 1/3)
 
 ---
+## Modificaciones al portal (curso programación 10)
+
+```{article-info}
+:avatar: ./recursos/camilo.fonseca.png
+:author: Camilo Fonseca
+:date: 15 Abril, 2026
+:read-time: 11:01 p.m.
+```
+
+Se realizan las siguientes modificaciones en el portal:
+
+- Se crean las guías del periodo 01 y 02 del curso **programación 10**.
+- Se crea examen final de periodo 01 de curso **lógica computacional 8**.
+- Se modifica la portada del portal para que se pueda ver rápidamente la información del docente.
+
+---
 ## Modificaciones al portal (nuevo logo)
 
 ```{article-info}

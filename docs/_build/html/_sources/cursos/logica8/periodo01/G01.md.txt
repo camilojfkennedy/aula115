@@ -35,7 +35,7 @@
 - Cumplimiento de las reglas del aula. ✔️
 ```
 
-```{tab-item} Recursos
+```{tab-item} Recursos (0)
 
 > La presente guía no contiene recursos.
 
@@ -52,7 +52,7 @@
 :::
 
 ---
-## A00: Introducción (+0,2)
+## A00: Introducción (+0,1)
 {bdg-light}`Exploración`
 
 1. TRANSCRIBA en su cuaderno el objetivo, las orientaciones curriculares y los criterios de evaluación de la presente guía.
@@ -60,7 +60,7 @@
     - ¿Qué tienen en común un smartphone, un smartTV, un computador y una tablet? 
 
 ---
-## A01: Concepto de hardware (+0,2)
+## A01: Concepto de hardware (+0,1)
 {bdg-info}`Estructuración`
 
 1. Lea la siguiente definición:
@@ -89,7 +89,7 @@ A continuación se muestran algunos ejemplos:
 3. En su cuaderno CREE un **mapa conceptual** que muestre los diferentes componentes del hardware y dos ejemplos por cada componente.
 
 ---
-## A02: La CPU (+0,2)
+## A02: La CPU (+0,1)
 {bdg-info}`Estructuración`
 
 1. Lea la siguiente definición:
@@ -131,7 +131,7 @@ La velocidad de la CPU se mide en Hertz (Hz) y determina qué tan rápido puede 
 4. En Internet, CONSULTE 3 marcas de fabricantes de CPU y descríbalas en su cuaderno.
 
 ---
-## A03: Memoria RAM (+0,2)
+## A03: Memoria RAM (+0,1)
 {bdg-info}`Estructuración`
 
 1. Lea la siguiente definición:
@@ -169,10 +169,10 @@ Las características de la memoria RAM son:
 3. En Internet, CONSULTE las diferentes generaciones que han tenido las memorias RAM y con esta información en su cuaderno CREE un mapa conceptual.
 
 ---
-## A04: CPU and RAM (+0,2)
-{bdg-info}`Estructuración`
+## A04: CPU and RAM (+0,5)
+{bdg-danger}`Transferencia`
 
-1. Con los temas vistos hasta ahora, en **UNA HOJA DE CUADERNO**, con sus palabras (no usar IA) RESPONDA la siguiente pregunta:
+1. Con los temas vistos hasta ahora, en **UNA PÁGINA DE CUADERNO**, con sus palabras (no usar IA) RESPONDA la siguiente pregunta:
 
     - ¿Por qué la memoria RAM y la CPU son tan importantes al momento de procesar información?
 
@@ -220,8 +220,8 @@ Una **interfaz gráfica** es un sistema que permite a los usuarios interactuar c
     - Modelado 3D
 
 ---
-## A06: Sistema computacional (+0,2)
-{bdg-info}`Estructuración` {bdg-warning}`Actividad práctica`
+## A06: Sistema computacional (+0,1)
+{bdg-info}`Estructuración`
 
 1. Lea la siguiente definición:
 
@@ -241,13 +241,18 @@ Computadora
     - ¿De qué manera un hardware interactúa con un software? (piense en un smartphone, un smart-TV, etc.)
     - ¿Cómo un sistema computacional interactúa con la información? (piense en un software como Microsoft EXCEL o WHATSAPP)
 
-3. En su cuaderno, ESCRIBA 5 ejemplos de sistemas computacionales. Tenga en cuenta el siguiente ejemplo:
+
+---
+## A07: Ejemplos sistemas computacionales (+0,5)
+{bdg-danger}`Transferencia`
+
+1. En su cuaderno, con sus palabras ESCRIBA 5 ejemplos de sistemas computacionales (No usar IA). Tenga en cuenta el siguiente ejemplo:
 
     > **EJEMPLO 01**: Un *portátil* es un ejemplo de **sistema computacional** porque su *hardware* (teclado, pantalla, touchpad) y *software* (OS, aplicaciones de escritorio) permite registrar, almacenar y mostrar información para un usuario”.
 
 ---
-## A07: Informática (+0,2)
-{bdg-info}`Estructuración` {bdg-warning}`Actividad práctica`
+## A08: Informática (+0,1)
+{bdg-info}`Estructuración`
 
 1. Lea la siguiente definición:
 
@@ -284,11 +289,9 @@ Computadora
     ```
 :::
 
-4. En su cuaderno, CREE dos casos más en los que la integridad y la disponibilidad de la información sean vulneradas.
-
 ---
-## A08: Razonamiento y lógica (+0,2)
-{bdg-info}`Estructuración` {bdg-warning}`Actividad práctica`
+## A09: Razonamiento y lógica (+0,1)
+{bdg-info}`Estructuración`
 
 1. Lea las siguientes definiciones:
 
@@ -317,7 +320,7 @@ Para el siguiente razonamiento, verifique si es correcto o no:
 > - Premisa 02: Sócrates es humano
 > - **Conclusión:** Sócrates es mortal
 
-**RSTA:** Si Sócrates es un ser humano, entonces Sócrates es mortal porque todos los humanos son mortales. El razonamiento es correcto.
+> **ANÁLISIS:** Si Sócrates es un ser humano, entonces Sócrates es mortal porque todos los humanos son mortales. El razonamiento es correcto. ✔️
 
 :::
 
@@ -338,10 +341,8 @@ Para el siguiente razonamiento, verifique si es correcto o no:
     > - **Conclusión 02:** ?
     > - **Conclusión 03:** ?
 
-4. Para cada conclusión del punto 3, aplica lógica e identifique si el razonamiento es correcto o no. 
-
 ---
-## A09: Lógica computacional (+0,2)
+## A10: Lógica computacional (+0,1)
 {bdg-info}`Estructuración`
 
 1. Lea las siguientes definiciones:
@@ -370,13 +371,31 @@ La **lógica computacional** es el área de la **informática** que aplica princ
 
 
 ---
-## A10: Entrega final (+3,0)
+## A11: Examen final (+3,0)
 {bdg-danger}`Transferencia`
 
-1. PRESENTE su **cuaderno** con el desarrollo de todas las actividades. Se tendrá en cuenta lo siguiente:
+:TIEMPO: 30 minutos
+:PREGUNTAS: 10
 
-    - Inclusión de mapas conceptuales.
-    - Esquemas propios.
-    - Ejemplos creados por usted.
-    - Explicaciones con sus palabras.
-    - Orden y buena presentación.
+:::{admonition} Posibles preguntas
+1. Explique con sus propias palabras qué es el **hardware** y mencione al menos tres categorías en las que se clasifican sus componentes, dando un ejemplo de cada una.
+2. ¿Por qué la **CPU** es considerada el "cerebro" del computador? Describa sus tres componentes principales y su función.
+3. Escriba las funciones principales de la **memoria RAM** y explique por qué es fundamental en el procesamiento de información.
+4. Compare y contraste el **hardware** y el **software**, resaltando sus diferencias fundamentales.
+5. ¿Qué es el **software** y cómo se clasifica? Describa brevemente cada una de sus categorías principales.
+6. Describa el concepto de **"interfaz gráfica"** y explique su importancia para los usuarios.
+7. Defina qué es un **"sistema computacional"** y cómo interactúan sus componentes para procesar información.
+8. ¿Qué es la **informática** y cuáles son sus objetivos principales en relación con los sistemas computacionales?
+9. Explique las dos **reglas fundamentales de la informática** (Integridad y Disponibilidad de la información) y por qué son importantes.
+10. Describa el concepto de **"razonar"** y proporcione un ejemplo propio (diferente al ejemplo de sócrates), que incluya premisas y una conclusión.
+11. ¿Qué es la **lógica** y cómo se relaciona con el razonamiento? Explique su papel en la verificación de la validez de los argumentos.
+12. ¿Se podría comprobar la **validez de un razonamiento** sin aplicar principios de lógica? Justifica tu respuesta.
+13. Defina qué es un **"algoritmo"** y cuáles son sus características principales.
+14. ¿Qué es la **"lógica computacional"** y cómo aplica los principios de la lógica y la informática?
+15. ¿Cómo se relacionan los **algoritmos** y la **lógica computacional** en la resolución de problemas?
+16. Basándose en la información sobre **hardware** y **software**, ¿cómo cree que un smartphone o una tablet funcionan como sistemas computacionales?
+17. ¿Por qué es importante que la memoria **RAM** y la **CPU** trabajen de manera coordinada para un buen rendimiento del sistema?
+18. Escriba un ejemplo de su vida diaria donde se aplique el concepto de **"disponibilidad de la información"**.
+19. Explique un escenario donde la **"integridad de la información"** sea crucial y qué podría suceder si esta se viera comprometida.
+20. ¿Cómo la evolución del **hardware** y el **software** ha impactado la forma en que utilizamos los **sistemas computacionales** hoy en día?
+:::

@@ -1,146 +1,51 @@
-# T03: Diagramas de flujo
+# T03: Algoritmos
 
-Un diagrama de flujo es un **esquema gráfico** donde se muestra el paso a paso para cumplir un objetivo.
+Un algoritmo es un conjunto de **instrucciones** que le dicen a un ser humano COMO REALIZAR una tarea específica, dichas instrucciones pueden estar escritas en código o lenguaje natural.
 
-Los diagramas de flujo usados en informática, son útiles porque ayudan a los programadores a organizar y visualizar el código haciendo más fácil encontrar y corregir errores.
+Un algoritmo puede ser expresado con palabras o números.
+
+Un algoritmo es cualquier actividad o evento con inicio y final, que tenga una serie de pasos lógicos para lograr su ejecución. Y estos suelen ser representados mediante diagramas de flujo. 
+
+Existen dos tipos de algoritmos:
+
+- Algoritmos cualitativos (informales)
+- Algoritmos cuantitativos (formales)
 
 ---
-## Símbolos diagramas de flujo
+## Algoritmos cualitativos (informales)
 
-A continuación se explican los símbolos que componen los diagramas de flujo:
+No requieren de cálculos numéricos para su ejecución. En su lugar, se deben ejecutar secuencias lógicas. Por ejemplo: las instrucciones para ensamblar un artefacto.
 
-### Operación
+---
+## Algoritmos cuantitativos (formales)
 
-:::{figure} ./recursos/image01.png
-:align: left
-:width: 250
-:::
+Requieren de cálculos numéricos (por ejemplo la solución de una ecuación). Si el cálculo numérico puede ser procesado por una persona, entonces es un **algoritmo cuantitativo no computacional**.
 
-Se usa para describir cualquier actividad, acción o instrucción. En el interior se escribe una descripción de la actividad.
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
+Si los cálculos numéricos son muy complejos entonces requieren poder computacional. A esta clase de algoritmos se les dice que son **algoritmos cuantitativos computacionales**. 
 
-### Límites de proceso
+- **Algoritmo cuantitativo no computacional:** Estos algoritmos requieren de operaciones numéricas simples, que un ser humano puede resolver sin necesidad de usar un sistema computacional. Por ejemplo una receta de cocina, un cálculo numérico sencillo o las instrucciones para llegar a un lugar.
+- **Algoritmo cuantitativo computacional:** Estos algoritmos requieren de operaciones numéricas complejas que deben resolverse con dispositivos de cálculo, como una computadora o calculadora. Ecuaciones de mucha complejidad o códigos que solo pueden ser interpretados por una máquina, son ejemplos de este tipo de algoritmo.
 
-:::{figure} ./recursos/image02.png
-:align: left
-:width: 250
-:::
-
-Indica el inicio (círculo blanco) y final (círculo negro) del algoritmo. 
-
-<br/>
-<br/>
-<br/>
-<br/>
-
-### Punto de decisión
-
-:::{figure} ./recursos/image03.png
-:align: left
-:width: 150
-:::
-
-Denota que en este punto se toma una decisión. Las únicas posibles opciones son SI/NO.
-
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-
-### Conector
-
-:::{figure} ./recursos/image04.png
-:align: left
-:width: 150
-:::
-
-Señala que la salida de un proceso/algoritmo, puede ser la entrada de otro proceso.
-
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-
-### Dirección de flujo
-
-:::{figure} ./recursos/image05.png
-:align: left
-:width: 150
-:::
-
-Denota la dirección y el orden de los pasos del proceso/algoritmo.
-
-<br/>
-<br/>
-<br/>
-
-### Entrada manual
-
-:::{figure} ./recursos/image06.png
-:align: left
-:width: 150
-:::
-
-Permite una entrada manual del usuario para ser procesada en el algoritmo.
-
-<br/>
-<br/>
-<br/>
-
-### Documento
-
-:::{figure} ./recursos/image07.png
-:align: left
-:width: 150
-:::
-
-Documento o registro generado en el proceso/algoritmo.
-
-<br/>
-<br/>
-<br/>
-<br/>
-
-### Base de datos
-
-:::{figure} ./recursos/image08.png
-:align: left
-:width: 120
-:::
-
-Punto de archivo donde se retiene la información. En espera que se cumplan otras condiciones para continuar con el proceso/algoritmo.
-
-<br/>
-<br/>
 
 ---
 ## Metodología para desarrollar un algoritmo
 
-:::{figure} ./recursos/image09.png
-:align: right
-:width: 230
-:::
+Cuando se desarrolla un algoritmo, cualquier usuario podría ejecutarlo siempre y cuando cumpla unos requisitos iniciales.
 
-Al momento de desarrollar un algoritmo se recomienda seguir los siguientes 3 pasos:
+Para desarrollar un algoritmo, se tienen las siguientes fases:
 
-- **PASO 01: Diseño del algoritmo (objetivo)**
+- **FASE 01: Análisis de requisitos (objetivo y condiciones)**
     
-    Identificar lo siguiente: 
+    En esta fase se identifica lo siguiente: 
     
-    - **Objetivo:** Permitirá identificar un estado inicial
-    - **Condiciones iniciales:** Permitirá identificar las condiciones de cumplimiento.
-    - **Condiciones de incumplimiento:** ¿Que puede pasar para que el algoritmo no se cumpla?
-    - **Condiciones de cumplimiento:** Cuando se logren las condiciones de cumplimiento se habrá cumplido el objetivo.
+    - **Objetivo:** Identificar el objetivo claro del algoritmo.
+    - **Condiciones iniciales:** Identificar los requisitos que debe cumplir el usuario para poder desarrollar el algoritmo.
+    - **Condiciones de incumplimiento:** Identificar todos los condicionales del algoritmo.
+    - **Condiciones de cumplimiento:** Identificar el estado del usuario cuando se cumple el algoritmo.
 
     ---
 
-- **PASO 02: Construcción del algoritmo (diagrama de flujo)**
+- **FASE 02: Diseño del algoritmo (diagrama de flujo)**
     
     Realizar un diagrama de flujo donde muestre el paso a paso lógico por medio de las siguientes figuras:
     
@@ -154,106 +59,104 @@ Al momento de desarrollar un algoritmo se recomienda seguir los siguientes 3 pas
 
     ---
     
-- **PASO 03: Implementación del algoritmo (código fuente)**
+- **FASE 03: Construcción del algoritmo (código fuente)**
     
-    Conversión del diagrama de flujo a PSEUDO-CÓDIGO o CÓDIGO FUENTE. En cualquier caso se debe identificar y describir el algoritmo. Se recomienda mínimo tener:
+    Conversión del **diagrama de flujo** a **CÓDIGO FUENTE**.
+    El código fuente es cualquier código que usa un lenguaje de programación que entienda una PC.
+    En este caso sería PYTHON pero de momento se usará PSEUDOCÓDIGO.
+
+    Se debe identificar el algoritmo. La identificación debe tener:
     
-    - **ALGORITMO/PROGRAMA:** “Nombre del algoritmo”
+    - **TÍTULO:** “Nombre del algoritmo”
     - **AUTOR:** “Creador del algoritmo”
     - **FECHA:** “Fecha de creación o última modificación del algoritmo”
-    - **DESCRIPCIÓN:** “Breve descripción de lo que hace el algoritmo”
 
 ---
-## EJEMPLO: Algoritmo para ir al colegio
+## Algoritmo para ir al colegio (ejemplo)
 
-Desarrollar un **algoritmo que permita a un estudiante ir al colegio**. Tenga en cuenta lo siguiente:
+Desarrolle el siguiente ejercicio:
 
-> El estudiante en su casa debe alistar implementos de la clase y luego ir al colegio ya sea a pie o en moto.
+:::{dropdown} Algoritmo para ir al colegio
+En su cuaderno desarrolle un **algoritmo que permita a un estudiante ir al colegio**. Tenga en cuenta lo siguiente:
 
-:::{admonition} PASO 01: Diseño del algoritmo (objetivo)
+> El estudiante inicialmente está en su casa. Luego debe ponerse el uniforme e ir al garaje para intentar prender la moto.
+> 
+> Si la moto NO prende, entonces salir del garaje, luego salir de la casa para llegar al colegio a pie.
+> 
+> Si la moto SI prende, entonces abrir el garaje, luego salir del garaje para llegar al colegio en moto.
+:::
+
+A continuación se muestra la solución del desarrollo del algoritmo.
+
+### FASE 01: Análisis de requisitos
+
+:::{admonition} (Objetivo y condiciones)
 :class: tip 
 
-### OBJETIVO
+#### OBJETIVO
 
-Llegar al colegio
+- Llegar al colegio.
 
-### CONDICIONES INICIALES
+#### CONDICIONES INICIALES
 
-- El estudiante está inicialmente en la casa.
-- El estudiante no tiene listos los implementos de clase.
-- La moto esta guardada en el garaje de la casa.
+- El estudiante debe estar en su casa
+- La casa del estudiante debe tener un garaje.
+- El estudiante no debe tener puesto el uniforme.
+- El estudiante debe tener una moto en el garaje.
 
-### CONDICIONES DE INCUMPLIMIENTO
+#### CONDICIONES DE INCUMPLIMIENTO
 
 - La moto no prende.
 
-### CONDICIONES DE CUMPLIMIENTO
+#### CONDICIONES DE CUMPLIMIENTO
 
 - El estudiante está en el colegio.
-- El estudiante tiene los implementos de la clase.
-- La moto puede estar bien sea en el colegio o sigue en el garaje.
+- El estudiante tiene el uniforme puesto.
+- La moto puede estar en el colegio o en el garaje.
 
 :::
 
-:::{admonition} PASO 02: Construcción del algoritmo (Diagrama de flujo)
+### FASE 02: Diseño del algoritmo
+
+:::{admonition} (Diagrama de flujo)
 :class: tip
 
-```{mermaid}
-:zoom:
-
-graph TD
-    01((Inicio)) --> 02["Buscar implementos de la clase"]
-    02 --> 03["Alistar implementos de la clase"]
-    03 --> 04["Ir al garaje"]
-    04 --> 05["Intentar prender la moto"]
-    05 --> 06{"¿La moto prende?"}
-    06 -- No --> 07["Salir del garaje"]
-    07 --> 08["Salir de la casa"]
-    08 --> 09["Cerrar la puerta"]
-    09 --> 10["Caminar al colegio"]
-    10 --> 11["Llegar al colegio"]
-    11 --> 12(((Fin)))
-    06 -- Si --> 13["Abrir el garaje"]
-    13 --> 14["Sacar la moto"]
-    14 --> 15["Cerrar el garaje"]
-    15 --> 16["Conducir al colegio"]
-    16 --> 11
+```{figure} ./recursos/image14.png
+:align: center
+:width: 400
 ```
-### Análisis
-
-- Se obtienen 2 caminos de ejecución. El tomar el uno o el otro depende si la moto prende.
-- No hay bucles. Independiente de un camino o el otro, siempre el estudiante llega al colegio.
-
 :::
 
-:::{admonition} PASO 03: Implementación del algoritmo (código fuente)
+### FASE 03: Construcción del algoritmo
+
+:::{admonition} (Código fuente)
 :class: tip
 
-```{table}
-ALGORITMO	| Algoritmo para que un estudiante pueda ir al colegio
--|-
-AUTOR	| Camilo Fonseca
-FECHA	| Lunes, 17 de Febrero de 2025 - 12:02am
-DESCRIPCIÓN	| Es un algoritmo cualitativo. <br/> Diseñado para ser ejecutado por un estudiante. <br/> Se debe cumplir con los siguientes requisitos: <br/>+ El estudiante debe estar en su casa <br/> + El estudiante debe tener moto
+```{list-table}
+* - TÍTULO
+  - Algoritmo para que un estudiante pueda ir al colegio
+* - AUTOR
+  - Camilo Fonseca
+* - FECHA
+  - Domingo, 12 de Abril de 2026 - 03:38pm
 ```
 
 ```python
  INICIO
- 
- 1. Buscar implementos de la clase
- 2. Alistar implementos de la clase
+
+ 1. Ponerse el uniforme
  3. Ir al garaje
  4. Intentar prender la moto
  5. Si (la moto SI prende)
-     1. Abrir el garaje
-     2. Sacar la moto
-     3. Cerrar el garaje
-     4. Conducir hasta el colegio
+     5.1 Abrir el garaje
+     5.2 Sacar la moto
+     5.3 Cerrar el garaje
+     5.4 Conducir hasta el colegio
  6. Si (la moto NO prende)
-     1. Salir del garage
-     2. Salir de la casa
-     3. Cerrar la puerta
-     4. Caminar hasta el colegio
+     6.1 Salir del garage
+     6.2 Salir de la casa
+     6.3 Cerrar la puerta
+     6.4 Caminar hasta el colegio
  7. Llegar al colegio
  
  FIN

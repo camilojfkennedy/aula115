@@ -1,27 +1,12 @@
 # Periodo 01
 
-:::{list-table}
-:header-rows: 0
-* - ![escudo](../../../escudo.png){width=250px}
-  - **INSTITUCIÓN EDUCATIVA** John F. Kennedy <br/> **DOCENTE** Julian Camilo Fonseca Romero <br/> **ASIGNATURA** Programación <br/> **GRADO** DÉCIMO <br/> **SEMANAS** 10 <br/> **TIEMPO DE TRABAJO** 2 horas / semana (20 horas)
-:::
+:DESEMPEÑO: Diferencia las partes físicas de la computadora de sus programas y comprende cómo la CPU y la memoria RAM trabajan con los datos para generar información útil. Identifica la organización jerárquica de la información y utiliza correctamente los términos hardware, software y programa en contextos técnicos sencillos.
 
-
-:TEMÁTICA: Principios de programación, variables y operadores.
-:OBJETIVO: Entender los conceptos de principios de programación, variables y sus operadores.
-:DESEMPEÑO: Entiende los principios de programación identificando los diferentes tipos de variables.
-
-## Orientaciones curriculares
-
-- **Componente**: Solución de problemas con T&I.
-- **Compotencia**: Propongo innovaciones tecnológicas e informáticas para la solución de problemas dando cumplimiento a restricciones, condiciones y especificaciones técnicas y contextuales.
-- **Evidencia de aprendizaje**: Propongo, analizo y comparo diferentes soluciones a un mismo problema de la tecnología o la informática, explicando su origen, ventajas y dificultades.
-
+---
 ## Contenidos
 :::{toctree}
 :maxdepth: 2
 
-A01.md
-A02.md
+G01.md
 R01.md
 :::

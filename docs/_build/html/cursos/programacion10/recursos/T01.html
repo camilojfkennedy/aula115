@@ -3,12 +3,12 @@
   <head><meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
-<link rel="index" title="Índice" href="../../../genindex.html"><link rel="search" title="Búsqueda" href="../../../search.html"><link rel="next" title="T02: Algoritmos" href="T02.html"><link rel="prev" title="Recursos" href="index.html">
+<link rel="index" title="Índice" href="../../../genindex.html"><link rel="search" title="Búsqueda" href="../../../search.html"><link rel="next" title="T02: Diagramas de flujo" href="T02.html"><link rel="prev" title="Recursos" href="index.html">
         <link rel="prefetch" href="../../../_static/logo.png" as="image">
         <link rel="prefetch" href="../../../_static/logo.png" as="image">
 
     <!-- Generated with Sphinx 8.2.3 and Furo 2025.09.25 -->
-        <title>T01: Instrucciones, software, datos e información - PORTAL: aula 115</title>
+        <title>T01: Fundamentos de arquitectura y lógica computacional - PORTAL: aula 115</title>
       <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css?v=03e43079" />
     <link rel="stylesheet" type="text/css" href="../../../_static/styles/furo.css?v=580074bf" />
     <link rel="stylesheet" type="text/css" href="../../../_static/sphinx-design.min.css?v=95c83b7e" />
@@ -326,14 +326,13 @@
 </li>
 <li class="toctree-l1 current has-children"><a class="reference internal" href="../index.html">Programación 10</a><input aria-label="Toggle navigation of Programación 10" checked="" class="toctree-checkbox" id="toctree-checkbox-19" name="toctree-checkbox-19" role="switch" type="checkbox"/><label for="toctree-checkbox-19"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul class="current">
 <li class="toctree-l2 has-children"><a class="reference internal" href="../periodo01/index.html">Periodo 01</a><input aria-label="Toggle navigation of Periodo 01" class="toctree-checkbox" id="toctree-checkbox-20" name="toctree-checkbox-20" role="switch" type="checkbox"/><label for="toctree-checkbox-20"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
-<li class="toctree-l3"><a class="reference internal" href="../periodo01/A01.html">A01: Instrucciones, software, datos e información</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../periodo01/A02.html">A02: Algoritmos</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../periodo01/G01.html">Guía 01: Fundamentos</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../periodo01/R01.html">Plan de refuerzo 01</a></li>
 </ul>
 </li>
 <li class="toctree-l2 has-children"><a class="reference internal" href="../periodo02/index.html">Periodo 02</a><input aria-label="Toggle navigation of Periodo 02" class="toctree-checkbox" id="toctree-checkbox-21" name="toctree-checkbox-21" role="switch" type="checkbox"/><label for="toctree-checkbox-21"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
-<li class="toctree-l3"><a class="reference internal" href="../periodo02/A01.html">A01: Diagramas de flujo</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../periodo02/A02.html">A02: Ejercicios diagramas de flujo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../periodo02/G01.html">Guía 01: Diagramas de flujo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../periodo02/G02.html">Guía 02: Desarrollo de algoritmos</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../periodo02/R02.html">Plan de refuerzo 02</a></li>
 </ul>
 </li>
@@ -350,9 +349,9 @@
 </ul>
 </li>
 <li class="toctree-l2 current has-children"><a class="reference internal" href="index.html">Recursos</a><input aria-label="Toggle navigation of Recursos" checked="" class="toctree-checkbox" id="toctree-checkbox-24" name="toctree-checkbox-24" role="switch" type="checkbox"/><label for="toctree-checkbox-24"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul class="current">
-<li class="toctree-l3 current current-page"><a class="current reference internal" href="#">T01: Instrucciones, software, datos e información</a></li>
-<li class="toctree-l3"><a class="reference internal" href="T02.html">T02: Algoritmos</a></li>
-<li class="toctree-l3"><a class="reference internal" href="T03.html">T03: Diagramas de flujo</a></li>
+<li class="toctree-l3 current current-page"><a class="current reference internal" href="#">T01: Fundamentos de arquitectura y lógica computacional</a></li>
+<li class="toctree-l3"><a class="reference internal" href="T02.html">T02: Diagramas de flujo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="T03.html">T03: Algoritmos</a></li>
 <li class="toctree-l3"><a class="reference internal" href="T04.html">T04: Lenguaje de programación PYTHON</a></li>
 <li class="toctree-l3"><a class="reference internal" href="T05.html">T05: Variables y sus tipos</a></li>
 </ul>
@@ -435,88 +434,9 @@
           </label>
         </div>
         <article role="main" id="furo-main-content">
-          <section class="tex2jax_ignore mathjax_ignore" id="t01-instrucciones-software-datos-e-informacion">
-<h1>T01: Instrucciones, software, datos e información<a class="headerlink" href="#t01-instrucciones-software-datos-e-informacion" title="Link to this heading">¶</a></h1>
-<p>Esta teoría explica los conceptos de instrucción, software, datos e información.</p>
-<hr class="docutils" />
-<section id="que-es-una-instruccion">
-<h2>¿Qué es una instrucción?<a class="headerlink" href="#que-es-una-instruccion" title="Link to this heading">¶</a></h2>
-<p>Una instrucción es una orden o indicación que se da para realizar una acción específica. Puede estar presente en distintos ámbitos. Por ejemplo:</p>
-<ul class="simple">
-<li><p><strong>Una instrucción de educación:</strong> Indicaciones que un profesor da a los estudiantes sobre cómo realizar una tarea o actividad.</p></li>
-<li><p><strong>Instrucciones de programación:</strong> Son comandos que le indican a una computadora qué hacer. Las instrucciones son parte del código fuente de un programa.</p></li>
-<li><p><strong>Instrucciones de cocina:</strong> Son pasos a seguir para una receta.</p></li>
-<li><p><strong>Instrucciones técnicas:</strong> Guías que explican cómo usar o ensamblar un producto. También aplica en el software.</p></li>
-</ul>
-<section id="reglas-para-dar-buenas-instrucciones">
-<h3>Reglas para dar buenas instrucciones<a class="headerlink" href="#reglas-para-dar-buenas-instrucciones" title="Link to this heading">¶</a></h3>
-<ul class="simple">
-<li><p><strong>CLARIDAD:</strong> Ayudan a entender qué se espera hacer.</p></li>
-<li><p><strong>EFICIENCIA:</strong> Permiten realizar tareas de manera correcta y rápida.</p></li>
-<li><p><strong>SEGURIDAD:</strong> En ciertos contextos, como el uso de maquinaria, las instrucciones son vitales para evitar accidentes.</p></li>
-</ul>
-</section>
-</section>
-<hr class="docutils" />
-<section id="hardware">
-<h2>HARDWARE<a class="headerlink" href="#hardware" title="Link to this heading">¶</a></h2>
-<p>El hardware es el conjunto de componentes de un sistema informático o computacional que se puede ver o tocar. Por ejemplo:</p>
-<ul class="simple">
-<li><p><strong>Dispositivos de entrada:</strong> Teclados, mouse, micrófonos.</p></li>
-<li><p><strong>Dispositivos de salida:</strong> Monitores, impresoras, bafles.</p></li>
-<li><p><strong>Procesamiento:</strong> CPU.</p></li>
-<li><p><strong>Memoria:</strong> memoria RAM, memoria CACHE.</p></li>
-<li><p><strong>Almacenamiento:</strong> Discos duros, memorias USB.</p></li>
-</ul>
-<p>La <strong>memoria RAM</strong> (<em>Random Access Memory o Memoria de Acceso Aleatorio</em>) es un componente fundamental del hardware que:</p>
-<ul class="simple">
-<li><p>Almacena temporalmente los datos y programas que el computador está usando activamente.</p></li>
-<li><p>Permite acceder rápidamente a la información mientras el equipo está encendido.</p></li>
-<li><p>Se borra cuando se apaga el computador (memoria volátil).</p></li>
-</ul>
-<p>Características importantes de la RAM:</p>
-<ul class="simple">
-<li><p>A mayor cantidad de RAM, más programas pueden ejecutarse simultáneamente.</p></li>
-<li><p>Su velocidad afecta directamente el rendimiento del sistema.</p></li>
-<li><p>Es diferente al almacenamiento permanente (disco duro) porque es temporal.</p></li>
-</ul>
-<figure class="align-center" id="id1">
-<img alt="../../../_images/image0210.png" src="../../../_images/image0210.png" />
-<figcaption>
-<p><span class="caption-text">MEMORIA RAM</span><a class="headerlink" href="#id1" title="Link to this image">¶</a></p>
-</figcaption>
-</figure>
-<p>La <strong>CPU (Unidad Central de Procesamiento)</strong> es el “cerebro” del computador. Es el componente principal que se encarga de:</p>
-<ul class="simple">
-<li><p>Procesar todas las instrucciones y cálculos del sistema</p></li>
-<li><p>Coordinar el funcionamiento de los demás componentes</p></li>
-<li><p>Ejecutar los programas y aplicaciones</p></li>
-</ul>
-<p>La <strong>CPU</strong> está compuesta principalmente por:</p>
-<ul class="simple">
-<li><p><strong>Unidad de Control:</strong> Coordina y dirige todas las operaciones</p></li>
-<li><p><strong>Unidad Aritmético-Lógica (ALU):</strong> Realiza cálculos matemáticos y operaciones lógicas</p></li>
-<li><p><strong>Registros:</strong> Pequeñas unidades de memoria de alta velocidad</p></li>
-</ul>
-<p>La velocidad de la <strong>CPU</strong> se mide en Hertz (Hz) y determina qué tan rápido puede procesar las instrucciones. A mayor velocidad, mejor rendimiento del sistema.</p>
-<figure class="align-center" id="id2">
-<img alt="../../../_images/image0112.png" src="../../../_images/image0112.png" />
-<figcaption>
-<p><span class="caption-text">CPU</span><a class="headerlink" href="#id2" title="Link to this image">¶</a></p>
-</figcaption>
-</figure>
-</section>
-<hr class="docutils" />
-<section id="software">
-<h2>SOFTWARE<a class="headerlink" href="#software" title="Link to this heading">¶</a></h2>
-<p>El software es el conjunto de programas, bases de datos, diferentes tipos de archivos y documentación que le dicen al hardware qué hacer. Es la parte lógica e intangible de un sistema informático. Por ejemplo:</p>
-<ul class="simple">
-<li><p><strong>Sistema operativo:</strong> Windows, Linux, MacOS - controlan el funcionamiento básico del computador.</p></li>
-<li><p><strong>Aplicaciones:</strong> Procesadores de texto, navegadores web, juegos, editores de imagen.</p></li>
-<li><p><strong>Controladores (drivers):</strong> Programas que permiten que el sistema operativo se comunique con el hardware.</p></li>
-</ul>
-<p>A diferencia del hardware que es físico y tangible, el software no se puede tocar - solo puede verse su funcionamiento en la pantalla.</p>
-</section>
+          <section class="tex2jax_ignore mathjax_ignore" id="t01-fundamentos-de-arquitectura-y-logica-computacional">
+<h1>T01: Fundamentos de arquitectura y lógica computacional<a class="headerlink" href="#t01-fundamentos-de-arquitectura-y-logica-computacional" title="Link to this heading">¶</a></h1>
+<p>Esta teoría explica los conceptos de instrucción, software, programa, datos e información. Estos conceptos son introductorios a la programación.</p>
 <hr class="docutils" />
 <section id="informacion-y-datos">
 <h2>Información y Datos<a class="headerlink" href="#informacion-y-datos" title="Link to this heading">¶</a></h2>
@@ -558,8 +478,10 @@
 </div>
 <p>La transformación de datos en información es una parte fundamental del procesamiento computacional, ya que permite convertir valores sin sentido en conocimiento útil y aplicable.</p>
 </section>
+</section>
+<hr class="docutils" />
 <section id="valores-cuantitativos-y-cualitativos">
-<h3>Valores cuantitativos y cualitativos<a class="headerlink" href="#valores-cuantitativos-y-cualitativos" title="Link to this heading">¶</a></h3>
+<h2>Valores cuantitativos y cualitativos<a class="headerlink" href="#valores-cuantitativos-y-cualitativos" title="Link to this heading">¶</a></h2>
 <p>Los valores cualitativos y cuantitativos son dos tipos diferentes de información:</p>
 <ul class="simple">
 <li><p><strong>Valores cualitativos:</strong> Describen cualidades o características que no se pueden medir numéricamente. Por ejemplo:</p>
@@ -580,16 +502,25 @@
 </ul>
 <p>La principal diferencia es que los valores cualitativos describen atributos o cualidades, mientras que los cuantitativos expresan cantidades medibles.</p>
 </section>
-</section>
 <hr class="docutils" />
 <section id="jerarquia-de-datos">
 <h2>Jerarquía de datos<a class="headerlink" href="#jerarquia-de-datos" title="Link to this heading">¶</a></h2>
-<figure class="align-center" id="id3">
-<img alt="../../../_images/image0211.png" src="../../../_images/image0211.png" />
+<p>La jerarquía de datos es la organización lógica de los datos en niveles sucesivos de complejidad, desde la unidad más pequeña hasta la más completa. En informática, se utiliza para entender cómo se estructura la información dentro de un sistema o base de datos.</p>
+<div class="table-wrapper docutils container">
+<table class="docutils align-default">
+<tbody>
+<tr class="row-odd"><td><figure class="align-default" id="id1">
+<a class="reference internal image-reference" href="../../../_images/image0211.png"><img alt="../../../_images/image0211.png" src="../../../_images/image0211.png" style="width: 420px;" />
+</a>
 <figcaption>
-<p><span class="caption-text">Jerarquía de datos</span><a class="headerlink" href="#id3" title="Link to this image">¶</a></p>
+<p><span class="caption-text">Jerarquía de datos</span><a class="headerlink" href="#id1" title="Link to this image">¶</a></p>
 </figcaption>
 </figure>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
 <p>Los datos en la computadora se clasifica de MENOR a MAYOR en el siguiente ranking:</p>
 <ol class="arabic">
 <li><p><strong>bit:</strong> unidad lógica puede ser <code class="docutils literal notranslate"><span class="pre">1</span></code> o <code class="docutils literal notranslate"><span class="pre">0</span></code>.</p></li>
@@ -610,6 +541,99 @@
 </li>
 </ol>
 </section>
+<hr class="docutils" />
+<section id="hardware">
+<h2>Hardware<a class="headerlink" href="#hardware" title="Link to this heading">¶</a></h2>
+<p>El hardware es el conjunto de componentes de un sistema informático o computacional que se puede ver o tocar. Por ejemplo:</p>
+<ul class="simple">
+<li><p><strong>Dispositivos de entrada:</strong> Teclados, mouse, micrófonos.</p></li>
+<li><p><strong>Dispositivos de salida:</strong> Monitores, impresoras, bafles.</p></li>
+<li><p><strong>Procesamiento:</strong> CPU.</p></li>
+<li><p><strong>Memoria:</strong> memoria RAM, memoria CACHE.</p></li>
+<li><p><strong>Almacenamiento:</strong> Discos duros, memorias USB.</p></li>
+</ul>
+<section id="la-memoria-ram-acceso-rapido-a-los-datos">
+<h3>La memoria RAM (acceso rápido a los datos)<a class="headerlink" href="#la-memoria-ram-acceso-rapido-a-los-datos" title="Link to this heading">¶</a></h3>
+<p>La <strong>memoria RAM</strong> (<em>Random Access Memory o Memoria de Acceso Aleatorio</em>) es un componente fundamental del hardware que:</p>
+<ul class="simple">
+<li><p>Almacena temporalmente los datos y programas que el computador está usando activamente.</p></li>
+<li><p>Permite acceder rápidamente a la información mientras el equipo está encendido.</p></li>
+<li><p>Se borra cuando se apaga el computador (memoria volátil).</p></li>
+</ul>
+<p>Características importantes de la RAM:</p>
+<ul class="simple">
+<li><p>A mayor cantidad de RAM, más programas pueden ejecutarse simultáneamente.</p></li>
+<li><p>Su velocidad afecta directamente el rendimiento del sistema.</p></li>
+<li><p>Es diferente al almacenamiento permanente (disco duro) porque es temporal.</p></li>
+</ul>
+<div class="table-wrapper docutils container">
+<table class="docutils align-default">
+<tbody>
+<tr class="row-odd"><td><figure class="align-default" id="id2">
+<a class="reference internal image-reference" href="../../../_images/image0210.png"><img alt="../../../_images/image0210.png" src="../../../_images/image0210.png" style="width: 270px;" />
+</a>
+<figcaption>
+<p><span class="caption-text">MEMORIA RAM</span><a class="headerlink" href="#id2" title="Link to this image">¶</a></p>
+</figcaption>
+</figure>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="la-cpu-procesa-los-datos">
+<h3>La CPU (procesa los datos)<a class="headerlink" href="#la-cpu-procesa-los-datos" title="Link to this heading">¶</a></h3>
+<p>La <strong>CPU (Unidad Central de Procesamiento)</strong> es el “cerebro” del computador. Es el componente principal que se encarga de:</p>
+<ul class="simple">
+<li><p>Procesar todas las instrucciones y cálculos del sistema</p></li>
+<li><p>Coordinar el funcionamiento de los demás componentes</p></li>
+<li><p>Ejecutar los programas y aplicaciones</p></li>
+</ul>
+<p>La <strong>CPU</strong> está compuesta principalmente por:</p>
+<ul class="simple">
+<li><p><strong>Unidad de Control:</strong> Coordina y dirige todas las operaciones</p></li>
+<li><p><strong>Unidad Aritmético-Lógica (ALU):</strong> Realiza cálculos matemáticos y operaciones lógicas</p></li>
+<li><p><strong>Registros:</strong> Pequeñas unidades de memoria de alta velocidad</p></li>
+</ul>
+<p>La velocidad de la <strong>CPU</strong> se mide en Hertz (Hz) y determina qué tan rápido puede procesar las instrucciones. A mayor velocidad, mejor rendimiento del sistema.</p>
+<div class="table-wrapper docutils container">
+<table class="docutils align-default">
+<tbody>
+<tr class="row-odd"><td><figure class="align-default" id="id3">
+<a class="reference internal image-reference" href="../../../_images/image0112.png"><img alt="../../../_images/image0112.png" src="../../../_images/image0112.png" style="width: 270px;" />
+</a>
+<figcaption>
+<p><span class="caption-text">CPU</span><a class="headerlink" href="#id3" title="Link to this image">¶</a></p>
+</figcaption>
+</figure>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+</section>
+<hr class="docutils" />
+<section id="software">
+<h2>Software<a class="headerlink" href="#software" title="Link to this heading">¶</a></h2>
+<p>Un <strong>Software</strong> es el conjunto de <strong>programas</strong>, bases de datos, archivos y documentación que permiten realizar diferentes tareas en un sistema computacional.</p>
+<p>Existen dos tipos de software: Software de sistema y software de aplicación.</p>
+<ul class="simple">
+<li><p><strong>Software de sistema:</strong> Ejecutan todas las funciones básicas de una computadora (por ejemplo encender la máquina, mostrar imagen en pantalla, monitorear temperatura, comunicarse con los diferentes periféricos, etc.). El <strong>software de sistema</strong> controla e intercambia datos con el hardware. Un ejemplo de software de sistema es el sistema operativo Windows. Inclusive los controladores o drivers también hacen parte del software de sistema.</p></li>
+<li><p><strong>Software de aplicación:</strong> Permite al usuario trabajar en una tarea específica (procesar texto, edición de video, edición de imágenes, navegación en INTERNET, desarrollo de software, etc.). Por lo general, el software de aplicación trabaja en función del software de sistema.</p></li>
+</ul>
+<p>A diferencia del hardware que es físico y tangible, el software no se puede tocar - solo puede verse su funcionamiento en la pantalla.</p>
+</section>
+<hr class="docutils" />
+<section id="software-vs-programa">
+<h2>Software Vs Programa<a class="headerlink" href="#software-vs-programa" title="Link to this heading">¶</a></h2>
+<p>Un programa es un <strong>conjunto de instrucciones</strong> que le dicen a una <strong>computadora</strong> COMO HACER una tarea específica. Las instrucciones están escritas en código y son diseñadas por programadores con conocimiento en un lenguaje de programación.</p>
+<p>A diferencia de un <strong>algoritmo</strong>, las instrucciones de un programa <strong>NO pueden ser escritas en lenguaje natural</strong>.</p>
+<blockquote>
+<div><p>“Aunque se usa el término Software como sinónimo, la realidad es que un Programa es solo una parte del Software”.</p>
+</div></blockquote>
+</section>
 </section>
 
         </article>
@@ -622,7 +646,7 @@
                 <div class="context">
                   <span>Next</span>
                 </div>
-                <div class="title">T02: Algoritmos</div>
+                <div class="title">T02: Diagramas de flujo</div>
               </div>
               <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
             </a>
@@ -667,20 +691,21 @@
         <div class="toc-tree-container">
           <div class="toc-tree">
             <ul>
-<li><a class="reference internal" href="#">T01: Instrucciones, software, datos e información</a><ul>
-<li><a class="reference internal" href="#que-es-una-instruccion">¿Qué es una instrucción?</a><ul>
-<li><a class="reference internal" href="#reglas-para-dar-buenas-instrucciones">Reglas para dar buenas instrucciones</a></li>
-</ul>
-</li>
-<li><a class="reference internal" href="#hardware">HARDWARE</a></li>
-<li><a class="reference internal" href="#software">SOFTWARE</a></li>
+<li><a class="reference internal" href="#">T01: Fundamentos de arquitectura y lógica computacional</a><ul>
 <li><a class="reference internal" href="#informacion-y-datos">Información y Datos</a><ul>
 <li><a class="reference internal" href="#datos">Datos</a></li>
 <li><a class="reference internal" href="#informacion">Información</a></li>
-<li><a class="reference internal" href="#valores-cuantitativos-y-cualitativos">Valores cuantitativos y cualitativos</a></li>
 </ul>
 </li>
+<li><a class="reference internal" href="#valores-cuantitativos-y-cualitativos">Valores cuantitativos y cualitativos</a></li>
 <li><a class="reference internal" href="#jerarquia-de-datos">Jerarquía de datos</a></li>
+<li><a class="reference internal" href="#hardware">Hardware</a><ul>
+<li><a class="reference internal" href="#la-memoria-ram-acceso-rapido-a-los-datos">La memoria RAM (acceso rápido a los datos)</a></li>
+<li><a class="reference internal" href="#la-cpu-procesa-los-datos">La CPU (procesa los datos)</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#software">Software</a></li>
+<li><a class="reference internal" href="#software-vs-programa">Software Vs Programa</a></li>
 </ul>
 </li>
 </ul>

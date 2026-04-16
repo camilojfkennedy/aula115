@@ -45,21 +45,6 @@ La información es el resultado de procesar, organizar e interpretar los datos d
 - Ayuda en la toma de decisiones.
 
 ---
-## Algoritmos
-
-Un algoritmo es un conjunto de **instrucciones** que le dicen a un ser humano COMO REALIZAR una tarea específica, dichas instrucciones pueden estar escritas en código o lenguaje natural.
-
-### Algoritmos cualitativos (informales)
-
-No requieren de cálculos numéricos para su ejecución. En su lugar, se deben ejecutar secuencias lógicas. Por ejemplo: las instrucciones para ensamblar un artefacto.
-
-### Algoritmos cuantitativos (formales)
-
-Requieren de cálculos numéricos (por ejemplo la solución de una ecuación). Si el cálculo numérico puede ser procesado por una persona, entonces es un **algoritmo cuantitativo no computacional**.
-
-Si los cálculos numéricos son muy complejos entonces requieren poder computacional. A esta clase de algoritmos se les dice que son **algoritmos cuantitativos computacionales**.
-
----
 ## Software Vs Programa
 
 ### Software
@@ -67,7 +52,5 @@ Si los cálculos numéricos son muy complejos entonces requieren poder computaci
 Un **Software** es el conjunto de **programas**, bases de datos, archivos y documentación que permiten realizar diferentes tareas en un sistema computacional.
 
 ### Programa
-
-> *Un PROGRAMA es un **algoritmo cuantitativo computacional**…*
 
 Un programa es un conjunto de instrucciones que le dicen a una computadora COMO HACER una tarea específica. Las instrucciones están escritas en código y son diseñadas por programadores con conocimiento en un lenguaje de programación.

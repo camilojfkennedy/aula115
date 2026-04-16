@@ -3,12 +3,12 @@
   <head><meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
-<link rel="index" title="Índice" href="../../../genindex.html"><link rel="search" title="Búsqueda" href="../../../search.html"><link rel="next" title="T04: Lenguaje de programación PYTHON" href="T04.html"><link rel="prev" title="T02: Algoritmos" href="T02.html">
+<link rel="index" title="Índice" href="../../../genindex.html"><link rel="search" title="Búsqueda" href="../../../search.html"><link rel="next" title="T04: Lenguaje de programación PYTHON" href="T04.html"><link rel="prev" title="T02: Diagramas de flujo" href="T02.html">
         <link rel="prefetch" href="../../../_static/logo.png" as="image">
         <link rel="prefetch" href="../../../_static/logo.png" as="image">
 
     <!-- Generated with Sphinx 8.2.3 and Furo 2025.09.25 -->
-        <title>T03: Diagramas de flujo - PORTAL: aula 115</title>
+        <title>T03: Algoritmos - PORTAL: aula 115</title>
       <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css?v=03e43079" />
     <link rel="stylesheet" type="text/css" href="../../../_static/styles/furo.css?v=580074bf" />
     <link rel="stylesheet" type="text/css" href="../../../_static/sphinx-design.min.css?v=95c83b7e" />
@@ -326,14 +326,13 @@
 </li>
 <li class="toctree-l1 current has-children"><a class="reference internal" href="../index.html">Programación 10</a><input aria-label="Toggle navigation of Programación 10" checked="" class="toctree-checkbox" id="toctree-checkbox-19" name="toctree-checkbox-19" role="switch" type="checkbox"/><label for="toctree-checkbox-19"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul class="current">
 <li class="toctree-l2 has-children"><a class="reference internal" href="../periodo01/index.html">Periodo 01</a><input aria-label="Toggle navigation of Periodo 01" class="toctree-checkbox" id="toctree-checkbox-20" name="toctree-checkbox-20" role="switch" type="checkbox"/><label for="toctree-checkbox-20"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
-<li class="toctree-l3"><a class="reference internal" href="../periodo01/A01.html">A01: Instrucciones, software, datos e información</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../periodo01/A02.html">A02: Algoritmos</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../periodo01/G01.html">Guía 01: Fundamentos</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../periodo01/R01.html">Plan de refuerzo 01</a></li>
 </ul>
 </li>
 <li class="toctree-l2 has-children"><a class="reference internal" href="../periodo02/index.html">Periodo 02</a><input aria-label="Toggle navigation of Periodo 02" class="toctree-checkbox" id="toctree-checkbox-21" name="toctree-checkbox-21" role="switch" type="checkbox"/><label for="toctree-checkbox-21"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
-<li class="toctree-l3"><a class="reference internal" href="../periodo02/A01.html">A01: Diagramas de flujo</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../periodo02/A02.html">A02: Ejercicios diagramas de flujo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../periodo02/G01.html">Guía 01: Diagramas de flujo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../periodo02/G02.html">Guía 02: Desarrollo de algoritmos</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../periodo02/R02.html">Plan de refuerzo 02</a></li>
 </ul>
 </li>
@@ -350,9 +349,9 @@
 </ul>
 </li>
 <li class="toctree-l2 current has-children"><a class="reference internal" href="index.html">Recursos</a><input aria-label="Toggle navigation of Recursos" checked="" class="toctree-checkbox" id="toctree-checkbox-24" name="toctree-checkbox-24" role="switch" type="checkbox"/><label for="toctree-checkbox-24"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="T01.html">T01: Instrucciones, software, datos e información</a></li>
-<li class="toctree-l3"><a class="reference internal" href="T02.html">T02: Algoritmos</a></li>
-<li class="toctree-l3 current current-page"><a class="current reference internal" href="#">T03: Diagramas de flujo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="T01.html">T01: Fundamentos de arquitectura y lógica computacional</a></li>
+<li class="toctree-l3"><a class="reference internal" href="T02.html">T02: Diagramas de flujo</a></li>
+<li class="toctree-l3 current current-page"><a class="current reference internal" href="#">T03: Algoritmos</a></li>
 <li class="toctree-l3"><a class="reference internal" href="T04.html">T04: Lenguaje de programación PYTHON</a></li>
 <li class="toctree-l3"><a class="reference internal" href="T05.html">T05: Variables y sus tipos</a></li>
 </ul>
@@ -435,130 +434,48 @@
           </label>
         </div>
         <article role="main" id="furo-main-content">
-          <section class="tex2jax_ignore mathjax_ignore" id="t03-diagramas-de-flujo">
-<h1>T03: Diagramas de flujo<a class="headerlink" href="#t03-diagramas-de-flujo" title="Link to this heading">¶</a></h1>
-<p>Un diagrama de flujo es un <strong>esquema gráfico</strong> donde se muestra el paso a paso para cumplir un objetivo.</p>
-<p>Los diagramas de flujo usados en informática, son útiles porque ayudan a los programadores a organizar y visualizar el código haciendo más fácil encontrar y corregir errores.</p>
+          <section class="tex2jax_ignore mathjax_ignore" id="t03-algoritmos">
+<h1>T03: Algoritmos<a class="headerlink" href="#t03-algoritmos" title="Link to this heading">¶</a></h1>
+<p>Un algoritmo es un conjunto de <strong>instrucciones</strong> que le dicen a un ser humano COMO REALIZAR una tarea específica, dichas instrucciones pueden estar escritas en código o lenguaje natural.</p>
+<p>Un algoritmo puede ser expresado con palabras o números.</p>
+<p>Un algoritmo es cualquier actividad o evento con inicio y final, que tenga una serie de pasos lógicos para lograr su ejecución. Y estos suelen ser representados mediante diagramas de flujo.</p>
+<p>Existen dos tipos de algoritmos:</p>
+<ul class="simple">
+<li><p>Algoritmos cualitativos (informales)</p></li>
+<li><p>Algoritmos cuantitativos (formales)</p></li>
+</ul>
 <hr class="docutils" />
-<section id="simbolos-diagramas-de-flujo">
-<h2>Símbolos diagramas de flujo<a class="headerlink" href="#simbolos-diagramas-de-flujo" title="Link to this heading">¶</a></h2>
-<p>A continuación se explican los símbolos que componen los diagramas de flujo:</p>
-<section id="operacion">
-<h3>Operación<a class="headerlink" href="#operacion" title="Link to this heading">¶</a></h3>
-<figure class="align-left">
-<a class="reference internal image-reference" href="../../../_images/image0121.png"><img alt="../../../_images/image0121.png" src="../../../_images/image0121.png" style="width: 250px;" />
-</a>
-</figure>
-<p>Se usa para describir cualquier actividad, acción o instrucción. En el interior se escribe una descripción de la actividad.
-<br/>
-<br/>
-<br/>
-<br/>
-<br/></p>
+<section id="algoritmos-cualitativos-informales">
+<h2>Algoritmos cualitativos (informales)<a class="headerlink" href="#algoritmos-cualitativos-informales" title="Link to this heading">¶</a></h2>
+<p>No requieren de cálculos numéricos para su ejecución. En su lugar, se deben ejecutar secuencias lógicas. Por ejemplo: las instrucciones para ensamblar un artefacto.</p>
 </section>
-<section id="limites-de-proceso">
-<h3>Límites de proceso<a class="headerlink" href="#limites-de-proceso" title="Link to this heading">¶</a></h3>
-<figure class="align-left">
-<a class="reference internal image-reference" href="../../../_images/image0220.png"><img alt="../../../_images/image0220.png" src="../../../_images/image0220.png" style="width: 250px;" />
-</a>
-</figure>
-<p>Indica el inicio (círculo blanco) y final (círculo negro) del algoritmo.</p>
-<br/>
-<br/>
-<br/>
-<br/>
-</section>
-<section id="punto-de-decision">
-<h3>Punto de decisión<a class="headerlink" href="#punto-de-decision" title="Link to this heading">¶</a></h3>
-<figure class="align-left">
-<a class="reference internal image-reference" href="../../../_images/image0316.png"><img alt="../../../_images/image0316.png" src="../../../_images/image0316.png" style="width: 150px;" />
-</a>
-</figure>
-<p>Denota que en este punto se toma una decisión. Las únicas posibles opciones son SI/NO.</p>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-</section>
-<section id="conector">
-<h3>Conector<a class="headerlink" href="#conector" title="Link to this heading">¶</a></h3>
-<figure class="align-left">
-<a class="reference internal image-reference" href="../../../_images/image0413.png"><img alt="../../../_images/image0413.png" src="../../../_images/image0413.png" style="width: 150px;" />
-</a>
-</figure>
-<p>Señala que la salida de un proceso/algoritmo, puede ser la entrada de otro proceso.</p>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-</section>
-<section id="direccion-de-flujo">
-<h3>Dirección de flujo<a class="headerlink" href="#direccion-de-flujo" title="Link to this heading">¶</a></h3>
-<figure class="align-left">
-<a class="reference internal image-reference" href="../../../_images/image0511.png"><img alt="../../../_images/image0511.png" src="../../../_images/image0511.png" style="width: 150px;" />
-</a>
-</figure>
-<p>Denota la dirección y el orden de los pasos del proceso/algoritmo.</p>
-<br/>
-<br/>
-<br/>
-</section>
-<section id="entrada-manual">
-<h3>Entrada manual<a class="headerlink" href="#entrada-manual" title="Link to this heading">¶</a></h3>
-<figure class="align-left">
-<a class="reference internal image-reference" href="../../../_images/image069.png"><img alt="../../../_images/image069.png" src="../../../_images/image069.png" style="width: 150px;" />
-</a>
-</figure>
-<p>Permite una entrada manual del usuario para ser procesada en el algoritmo.</p>
-<br/>
-<br/>
-<br/>
-</section>
-<section id="documento">
-<h3>Documento<a class="headerlink" href="#documento" title="Link to this heading">¶</a></h3>
-<figure class="align-left">
-<a class="reference internal image-reference" href="../../../_images/image078.png"><img alt="../../../_images/image078.png" src="../../../_images/image078.png" style="width: 150px;" />
-</a>
-</figure>
-<p>Documento o registro generado en el proceso/algoritmo.</p>
-<br/>
-<br/>
-<br/>
-<br/>
-</section>
-<section id="base-de-datos">
-<h3>Base de datos<a class="headerlink" href="#base-de-datos" title="Link to this heading">¶</a></h3>
-<figure class="align-left">
-<a class="reference internal image-reference" href="../../../_images/image088.png"><img alt="../../../_images/image088.png" src="../../../_images/image088.png" style="width: 120px;" />
-</a>
-</figure>
-<p>Punto de archivo donde se retiene la información. En espera que se cumplan otras condiciones para continuar con el proceso/algoritmo.</p>
-<br/>
-<br/>
-</section>
+<hr class="docutils" />
+<section id="algoritmos-cuantitativos-formales">
+<h2>Algoritmos cuantitativos (formales)<a class="headerlink" href="#algoritmos-cuantitativos-formales" title="Link to this heading">¶</a></h2>
+<p>Requieren de cálculos numéricos (por ejemplo la solución de una ecuación). Si el cálculo numérico puede ser procesado por una persona, entonces es un <strong>algoritmo cuantitativo no computacional</strong>.</p>
+<p>Si los cálculos numéricos son muy complejos entonces requieren poder computacional. A esta clase de algoritmos se les dice que son <strong>algoritmos cuantitativos computacionales</strong>.</p>
+<ul class="simple">
+<li><p><strong>Algoritmo cuantitativo no computacional:</strong> Estos algoritmos requieren de operaciones numéricas simples, que un ser humano puede resolver sin necesidad de usar un sistema computacional. Por ejemplo una receta de cocina, un cálculo numérico sencillo o las instrucciones para llegar a un lugar.</p></li>
+<li><p><strong>Algoritmo cuantitativo computacional:</strong> Estos algoritmos requieren de operaciones numéricas complejas que deben resolverse con dispositivos de cálculo, como una computadora o calculadora. Ecuaciones de mucha complejidad o códigos que solo pueden ser interpretados por una máquina, son ejemplos de este tipo de algoritmo.</p></li>
+</ul>
 </section>
 <hr class="docutils" />
 <section id="metodologia-para-desarrollar-un-algoritmo">
 <h2>Metodología para desarrollar un algoritmo<a class="headerlink" href="#metodologia-para-desarrollar-un-algoritmo" title="Link to this heading">¶</a></h2>
-<figure class="align-right">
-<a class="reference internal image-reference" href="../../../_images/image096.png"><img alt="../../../_images/image096.png" src="../../../_images/image096.png" style="width: 230px;" />
-</a>
-</figure>
-<p>Al momento de desarrollar un algoritmo se recomienda seguir los siguientes 3 pasos:</p>
+<p>Cuando se desarrolla un algoritmo, cualquier usuario podría ejecutarlo siempre y cuando cumpla unos requisitos iniciales.</p>
+<p>Para desarrollar un algoritmo, se tienen las siguientes fases:</p>
 <ul>
-<li><p><strong>PASO 01: Diseño del algoritmo (objetivo)</strong></p>
-<p>Identificar lo siguiente:</p>
+<li><p><strong>FASE 01: Análisis de requisitos (objetivo y condiciones)</strong></p>
+<p>En esta fase se identifica lo siguiente:</p>
 <ul class="simple">
-<li><p><strong>Objetivo:</strong> Permitirá identificar un estado inicial</p></li>
-<li><p><strong>Condiciones iniciales:</strong> Permitirá identificar las condiciones de cumplimiento.</p></li>
-<li><p><strong>Condiciones de incumplimiento:</strong> ¿Que puede pasar para que el algoritmo no se cumpla?</p></li>
-<li><p><strong>Condiciones de cumplimiento:</strong> Cuando se logren las condiciones de cumplimiento se habrá cumplido el objetivo.</p></li>
+<li><p><strong>Objetivo:</strong> Identificar el objetivo claro del algoritmo.</p></li>
+<li><p><strong>Condiciones iniciales:</strong> Identificar los requisitos que debe cumplir el usuario para poder desarrollar el algoritmo.</p></li>
+<li><p><strong>Condiciones de incumplimiento:</strong> Identificar todos los condicionales del algoritmo.</p></li>
+<li><p><strong>Condiciones de cumplimiento:</strong> Identificar el estado del usuario cuando se cumple el algoritmo.</p></li>
 </ul>
 </li>
 <hr class="docutils" />
-<li><p><strong>PASO 02: Construcción del algoritmo (diagrama de flujo)</strong></p>
+<li><p><strong>FASE 02: Diseño del algoritmo (diagrama de flujo)</strong></p>
 <p>Realizar un diagrama de flujo donde muestre el paso a paso lógico por medio de las siguientes figuras:</p>
 <ul class="simple">
 <li><p><strong>Círculos:</strong> INICIO y FIN</p></li>
@@ -570,33 +487,48 @@
 <p>Después de tener el diagrama de flujo, realizar un análisis.</p>
 </li>
 <hr class="docutils" />
-<li><p><strong>PASO 03: Implementación del algoritmo (código fuente)</strong></p>
-<p>Conversión del diagrama de flujo a PSEUDO-CÓDIGO o CÓDIGO FUENTE. En cualquier caso se debe identificar y describir el algoritmo. Se recomienda mínimo tener:</p>
+<li><p><strong>FASE 03: Construcción del algoritmo (código fuente)</strong></p>
+<p>Conversión del <strong>diagrama de flujo</strong> a <strong>CÓDIGO FUENTE</strong>.
+El código fuente es cualquier código que usa un lenguaje de programación que entienda una PC.
+En este caso sería PYTHON pero de momento se usará PSEUDOCÓDIGO.</p>
+<p>Se debe identificar el algoritmo. La identificación debe tener:</p>
 <ul class="simple">
-<li><p><strong>ALGORITMO/PROGRAMA:</strong> “Nombre del algoritmo”</p></li>
+<li><p><strong>TÍTULO:</strong> “Nombre del algoritmo”</p></li>
 <li><p><strong>AUTOR:</strong> “Creador del algoritmo”</p></li>
 <li><p><strong>FECHA:</strong> “Fecha de creación o última modificación del algoritmo”</p></li>
-<li><p><strong>DESCRIPCIÓN:</strong> “Breve descripción de lo que hace el algoritmo”</p></li>
 </ul>
 </li>
 </ul>
 </section>
 <hr class="docutils" />
-<section id="ejemplo-algoritmo-para-ir-al-colegio">
-<h2>EJEMPLO: Algoritmo para ir al colegio<a class="headerlink" href="#ejemplo-algoritmo-para-ir-al-colegio" title="Link to this heading">¶</a></h2>
-<p>Desarrollar un <strong>algoritmo que permita a un estudiante ir al colegio</strong>. Tenga en cuenta lo siguiente:</p>
+<section id="algoritmo-para-ir-al-colegio-ejemplo">
+<h2>Algoritmo para ir al colegio (ejemplo)<a class="headerlink" href="#algoritmo-para-ir-al-colegio-ejemplo" title="Link to this heading">¶</a></h2>
+<p>Desarrolle el siguiente ejercicio:</p>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text">Algoritmo para ir al colegio</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<p class="sd-card-text">En su cuaderno desarrolle un <strong>algoritmo que permita a un estudiante ir al colegio</strong>. Tenga en cuenta lo siguiente:</p>
 <blockquote>
-<div><p>El estudiante en su casa debe alistar implementos de la clase y luego ir al colegio ya sea a pie o en moto.</p>
+<div><p class="sd-card-text">El estudiante inicialmente está en su casa. Luego debe ponerse el uniforme e ir al garaje para intentar prender la moto.</p>
+<p class="sd-card-text">Si la moto NO prende, entonces salir del garaje, luego salir de la casa para llegar al colegio a pie.</p>
+<p class="sd-card-text">Si la moto SI prende, entonces abrir el garaje, luego salir del garaje para llegar al colegio en moto.</p>
 </div></blockquote>
+</div>
+</details><p>A continuación se muestra la solución del desarrollo del algoritmo.</p>
+<section id="fase-01-analisis-de-requisitos">
+<h3>FASE 01: Análisis de requisitos<a class="headerlink" href="#fase-01-analisis-de-requisitos" title="Link to this heading">¶</a></h3>
 <div class="tip admonition">
-<p class="admonition-title">PASO 01: Diseño del algoritmo (objetivo)</p>
+<p class="admonition-title">(Objetivo y condiciones)</p>
 <p class="rubric" id="objetivo">OBJETIVO</p>
-<p>Llegar al colegio</p>
+<ul class="simple">
+<li><p>Llegar al colegio.</p></li>
+</ul>
 <p class="rubric" id="condiciones-iniciales">CONDICIONES INICIALES</p>
 <ul class="simple">
-<li><p>El estudiante está inicialmente en la casa.</p></li>
-<li><p>El estudiante no tiene listos los implementos de clase.</p></li>
-<li><p>La moto esta guardada en el garaje de la casa.</p></li>
+<li><p>El estudiante debe estar en su casa</p></li>
+<li><p>La casa del estudiante debe tener un garaje.</p></li>
+<li><p>El estudiante no debe tener puesto el uniforme.</p></li>
+<li><p>El estudiante debe tener una moto en el garaje.</p></li>
 </ul>
 <p class="rubric" id="condiciones-de-incumplimiento">CONDICIONES DE INCUMPLIMIENTO</p>
 <ul class="simple">
@@ -605,80 +537,62 @@
 <p class="rubric" id="condiciones-de-cumplimiento">CONDICIONES DE CUMPLIMIENTO</p>
 <ul class="simple">
 <li><p>El estudiante está en el colegio.</p></li>
-<li><p>El estudiante tiene los implementos de la clase.</p></li>
-<li><p>La moto puede estar bien sea en el colegio o sigue en el garaje.</p></li>
+<li><p>El estudiante tiene el uniforme puesto.</p></li>
+<li><p>La moto puede estar en el colegio o en el garaje.</p></li>
 </ul>
 </div>
+</section>
+<section id="fase-02-diseno-del-algoritmo">
+<h3>FASE 02: Diseño del algoritmo<a class="headerlink" href="#fase-02-diseno-del-algoritmo" title="Link to this heading">¶</a></h3>
 <div class="tip admonition">
-<p class="admonition-title">PASO 02: Construcción del algoritmo (Diagrama de flujo)</p>
-<pre data-zoom-id="id-71d080e6-5ae1-4fe7-aa13-241cc824d3de" class="mermaid">
-        graph TD
-    01((Inicio)) --&gt; 02[&quot;Buscar implementos de la clase&quot;]
-    02 --&gt; 03[&quot;Alistar implementos de la clase&quot;]
-    03 --&gt; 04[&quot;Ir al garaje&quot;]
-    04 --&gt; 05[&quot;Intentar prender la moto&quot;]
-    05 --&gt; 06{&quot;¿La moto prende?&quot;}
-    06 -- No --&gt; 07[&quot;Salir del garaje&quot;]
-    07 --&gt; 08[&quot;Salir de la casa&quot;]
-    08 --&gt; 09[&quot;Cerrar la puerta&quot;]
-    09 --&gt; 10[&quot;Caminar al colegio&quot;]
-    10 --&gt; 11[&quot;Llegar al colegio&quot;]
-    11 --&gt; 12(((Fin)))
-    06 -- Si --&gt; 13[&quot;Abrir el garaje&quot;]
-    13 --&gt; 14[&quot;Sacar la moto&quot;]
-    14 --&gt; 15[&quot;Cerrar el garaje&quot;]
-    15 --&gt; 16[&quot;Conducir al colegio&quot;]
-    16 --&gt; 11
-    </pre><p class="rubric" id="analisis">Análisis</p>
-<ul class="simple">
-<li><p>Se obtienen 2 caminos de ejecución. El tomar el uno o el otro depende si la moto prende.</p></li>
-<li><p>No hay bucles. Independiente de un camino o el otro, siempre el estudiante llega al colegio.</p></li>
-</ul>
+<p class="admonition-title">(Diagrama de flujo)</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../../../_images/image143.png"><img alt="../../../_images/image143.png" src="../../../_images/image143.png" style="width: 400px;" />
+</a>
+</figure>
 </div>
+</section>
+<section id="fase-03-construccion-del-algoritmo">
+<h3>FASE 03: Construcción del algoritmo<a class="headerlink" href="#fase-03-construccion-del-algoritmo" title="Link to this heading">¶</a></h3>
 <div class="tip admonition">
-<p class="admonition-title">PASO 03: Implementación del algoritmo (código fuente)</p>
-<div class="table-wrapper colwidths-auto docutils container">
+<p class="admonition-title">(Código fuente)</p>
+<div class="table-wrapper docutils container">
 <table class="docutils align-default">
-<thead>
-<tr class="row-odd"><th class="head"><p>ALGORITMO</p></th>
-<th class="head"><p>Algoritmo para que un estudiante pueda ir al colegio</p></th>
-</tr>
-</thead>
 <tbody>
+<tr class="row-odd"><td><p>TÍTULO</p></td>
+<td><p>Algoritmo para que un estudiante pueda ir al colegio</p></td>
+</tr>
 <tr class="row-even"><td><p>AUTOR</p></td>
 <td><p>Camilo Fonseca</p></td>
 </tr>
 <tr class="row-odd"><td><p>FECHA</p></td>
-<td><p>Lunes, 17 de Febrero de 2025 - 12:02am</p></td>
-</tr>
-<tr class="row-even"><td><p>DESCRIPCIÓN</p></td>
-<td><p>Es un algoritmo cualitativo. <br/> Diseñado para ser ejecutado por un estudiante. <br/> Se debe cumplir con los siguientes requisitos: <br/>+ El estudiante debe estar en su casa <br/> + El estudiante debe tener moto</p></td>
+<td><p>Domingo, 12 de Abril de 2026 - 03:38pm</p></td>
 </tr>
 </tbody>
 </table>
 </div>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="linenos"> 1</span> <span class="n">INICIO</span>
-<span class="linenos"> 2</span> 
-<span class="linenos"> 3</span> <span class="mf">1.</span> <span class="n">Buscar</span> <span class="n">implementos</span> <span class="n">de</span> <span class="n">la</span> <span class="n">clase</span>
-<span class="linenos"> 4</span> <span class="mf">2.</span> <span class="n">Alistar</span> <span class="n">implementos</span> <span class="n">de</span> <span class="n">la</span> <span class="n">clase</span>
-<span class="linenos"> 5</span> <span class="mf">3.</span> <span class="n">Ir</span> <span class="n">al</span> <span class="n">garaje</span>
-<span class="linenos"> 6</span> <span class="mf">4.</span> <span class="n">Intentar</span> <span class="n">prender</span> <span class="n">la</span> <span class="n">moto</span>
-<span class="linenos"> 7</span> <span class="mf">5.</span> <span class="n">Si</span> <span class="p">(</span><span class="n">la</span> <span class="n">moto</span> <span class="n">SI</span> <span class="n">prende</span><span class="p">)</span>
-<span class="linenos"> 8</span>     <span class="mf">1.</span> <span class="n">Abrir</span> <span class="n">el</span> <span class="n">garaje</span>
-<span class="linenos"> 9</span>     <span class="mf">2.</span> <span class="n">Sacar</span> <span class="n">la</span> <span class="n">moto</span>
-<span class="linenos">10</span>     <span class="mf">3.</span> <span class="n">Cerrar</span> <span class="n">el</span> <span class="n">garaje</span>
-<span class="linenos">11</span>     <span class="mf">4.</span> <span class="n">Conducir</span> <span class="n">hasta</span> <span class="n">el</span> <span class="n">colegio</span>
-<span class="linenos">12</span> <span class="mf">6.</span> <span class="n">Si</span> <span class="p">(</span><span class="n">la</span> <span class="n">moto</span> <span class="n">NO</span> <span class="n">prende</span><span class="p">)</span>
-<span class="linenos">13</span>     <span class="mf">1.</span> <span class="n">Salir</span> <span class="k">del</span> <span class="n">garage</span>
-<span class="linenos">14</span>     <span class="mf">2.</span> <span class="n">Salir</span> <span class="n">de</span> <span class="n">la</span> <span class="n">casa</span>
-<span class="linenos">15</span>     <span class="mf">3.</span> <span class="n">Cerrar</span> <span class="n">la</span> <span class="n">puerta</span>
-<span class="linenos">16</span>     <span class="mf">4.</span> <span class="n">Caminar</span> <span class="n">hasta</span> <span class="n">el</span> <span class="n">colegio</span>
-<span class="linenos">17</span> <span class="mf">7.</span> <span class="n">Llegar</span> <span class="n">al</span> <span class="n">colegio</span>
-<span class="linenos">18</span> 
-<span class="linenos">19</span> <span class="n">FIN</span>
+<span class="linenos"> 2</span>
+<span class="linenos"> 3</span> <span class="mf">1.</span> <span class="n">Ponerse</span> <span class="n">el</span> <span class="n">uniforme</span>
+<span class="linenos"> 4</span> <span class="mf">3.</span> <span class="n">Ir</span> <span class="n">al</span> <span class="n">garaje</span>
+<span class="linenos"> 5</span> <span class="mf">4.</span> <span class="n">Intentar</span> <span class="n">prender</span> <span class="n">la</span> <span class="n">moto</span>
+<span class="linenos"> 6</span> <span class="mf">5.</span> <span class="n">Si</span> <span class="p">(</span><span class="n">la</span> <span class="n">moto</span> <span class="n">SI</span> <span class="n">prende</span><span class="p">)</span>
+<span class="linenos"> 7</span>     <span class="mf">5.1</span> <span class="n">Abrir</span> <span class="n">el</span> <span class="n">garaje</span>
+<span class="linenos"> 8</span>     <span class="mf">5.2</span> <span class="n">Sacar</span> <span class="n">la</span> <span class="n">moto</span>
+<span class="linenos"> 9</span>     <span class="mf">5.3</span> <span class="n">Cerrar</span> <span class="n">el</span> <span class="n">garaje</span>
+<span class="linenos">10</span>     <span class="mf">5.4</span> <span class="n">Conducir</span> <span class="n">hasta</span> <span class="n">el</span> <span class="n">colegio</span>
+<span class="linenos">11</span> <span class="mf">6.</span> <span class="n">Si</span> <span class="p">(</span><span class="n">la</span> <span class="n">moto</span> <span class="n">NO</span> <span class="n">prende</span><span class="p">)</span>
+<span class="linenos">12</span>     <span class="mf">6.1</span> <span class="n">Salir</span> <span class="k">del</span> <span class="n">garage</span>
+<span class="linenos">13</span>     <span class="mf">6.2</span> <span class="n">Salir</span> <span class="n">de</span> <span class="n">la</span> <span class="n">casa</span>
+<span class="linenos">14</span>     <span class="mf">6.3</span> <span class="n">Cerrar</span> <span class="n">la</span> <span class="n">puerta</span>
+<span class="linenos">15</span>     <span class="mf">6.4</span> <span class="n">Caminar</span> <span class="n">hasta</span> <span class="n">el</span> <span class="n">colegio</span>
+<span class="linenos">16</span> <span class="mf">7.</span> <span class="n">Llegar</span> <span class="n">al</span> <span class="n">colegio</span>
+<span class="linenos">17</span> 
+<span class="linenos">18</span> <span class="n">FIN</span>
 </pre></div>
 </div>
 </div>
+</section>
 </section>
 </section>
 
@@ -703,7 +617,7 @@
                   <span>Previous</span>
                 </div>
                 
-                <div class="title">T02: Algoritmos</div>
+                <div class="title">T02: Diagramas de flujo</div>
                 
               </div>
             </a>
@@ -737,20 +651,16 @@
         <div class="toc-tree-container">
           <div class="toc-tree">
             <ul>
-<li><a class="reference internal" href="#">T03: Diagramas de flujo</a><ul>
-<li><a class="reference internal" href="#simbolos-diagramas-de-flujo">Símbolos diagramas de flujo</a><ul>
-<li><a class="reference internal" href="#operacion">Operación</a></li>
-<li><a class="reference internal" href="#limites-de-proceso">Límites de proceso</a></li>
-<li><a class="reference internal" href="#punto-de-decision">Punto de decisión</a></li>
-<li><a class="reference internal" href="#conector">Conector</a></li>
-<li><a class="reference internal" href="#direccion-de-flujo">Dirección de flujo</a></li>
-<li><a class="reference internal" href="#entrada-manual">Entrada manual</a></li>
-<li><a class="reference internal" href="#documento">Documento</a></li>
-<li><a class="reference internal" href="#base-de-datos">Base de datos</a></li>
+<li><a class="reference internal" href="#">T03: Algoritmos</a><ul>
+<li><a class="reference internal" href="#algoritmos-cualitativos-informales">Algoritmos cualitativos (informales)</a></li>
+<li><a class="reference internal" href="#algoritmos-cuantitativos-formales">Algoritmos cuantitativos (formales)</a></li>
+<li><a class="reference internal" href="#metodologia-para-desarrollar-un-algoritmo">Metodología para desarrollar un algoritmo</a></li>
+<li><a class="reference internal" href="#algoritmo-para-ir-al-colegio-ejemplo">Algoritmo para ir al colegio (ejemplo)</a><ul>
+<li><a class="reference internal" href="#fase-01-analisis-de-requisitos">FASE 01: Análisis de requisitos</a></li>
+<li><a class="reference internal" href="#fase-02-diseno-del-algoritmo">FASE 02: Diseño del algoritmo</a></li>
+<li><a class="reference internal" href="#fase-03-construccion-del-algoritmo">FASE 03: Construcción del algoritmo</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#metodologia-para-desarrollar-un-algoritmo">Metodología para desarrollar un algoritmo</a></li>
-<li><a class="reference internal" href="#ejemplo-algoritmo-para-ir-al-colegio">EJEMPLO: Algoritmo para ir al colegio</a></li>
 </ul>
 </li>
 </ul>
@@ -768,370 +678,5 @@
     <script src="../../../_static/scripts/furo.js?v=46bd48cc"></script>
     <script src="../../../_static/translations.js?v=f85f4cfb"></script>
     <script src="../../../_static/design-tabs.js?v=f930bc37"></script>
-    <script type="module" src="https://cdn.jsdelivr.net/npm/mermaid@11.12.1/dist/mermaid.esm.min.mjs"></script>
-    <script type="module" src="https://cdn.jsdelivr.net/npm/@mermaid-js/layout-elk@0.2.0/dist/mermaid-layout-elk.esm.min.mjs"></script>
-    <script type="module">import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@11.12.1/dist/mermaid.esm.min.mjs";import elkLayouts from "https://cdn.jsdelivr.net/npm/@mermaid-js/layout-elk@0.2.0/dist/mermaid-layout-elk.esm.min.mjs";mermaid.registerLayoutLoaders(elkLayouts);mermaid.initialize({startOnLoad:false});</script>
-    <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
-    <script type="module">import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@11.12.1/dist/mermaid.esm.min.mjs";
-
-const defaultStyle = document.createElement('style');
-defaultStyle.textContent = `pre.mermaid {
-    /* Same as .mermaid-container > pre */
-    display: block;
-    width: 100%;
-}
-
-pre.mermaid > svg {
-    /* Same as .mermaid-container > pre > svg */
-    height: 500px;
-    width: 100%;
-    max-width: 100% !important;
-}
-`;
-document.head.appendChild(defaultStyle);
-
-const fullscreenStyle = document.createElement('style');
-fullscreenStyle.textContent = `.mermaid-container {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-}
-
-.mermaid-container > pre {
-    display: block;
-    width: 100%;
-}
-
-.mermaid-container > pre > svg {
-    height: 500px;
-    width: 100%;
-    max-width: 100% !important;
-}
-
-.mermaid-fullscreen-btn {
-    width: 28px;
-    height: 28px;
-    background: rgba(255, 255, 255, 0.95);
-    border: 1px solid rgba(0, 0, 0, 0.3);
-    border-radius: 4px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.2s;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-    font-size: 14px;
-    line-height: 1;
-    padding: 0;
-    color: #333;
-}
-
-.mermaid-fullscreen-btn:hover {
-    opacity: 100% !important;
-    background: rgba(255, 255, 255, 1);
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
-    transform: scale(1.1);
-}
-
-.mermaid-fullscreen-btn.dark-theme {
-    background: rgba(50, 50, 50, 0.95);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    color: #e0e0e0;
-}
-
-.mermaid-fullscreen-btn.dark-theme:hover {
-    background: rgba(60, 60, 60, 1);
-    box-shadow: 0 3px 10px rgba(255, 255, 255, 0.2);
-}
-
-.mermaid-fullscreen-modal {
-    display: none;
-    position: fixed !important;
-    top: 0 !important;
-    left: 0 !important;
-    width: 95vw;
-    height: 100vh;
-    background: rgba(255, 255, 255, 0.98);
-    z-index: 9999;
-    padding: 20px;
-    overflow: auto;
-}
-
-.mermaid-fullscreen-modal.dark-theme {
-    background: rgba(0, 0, 0, 0.98);
-}
-
-.mermaid-fullscreen-modal.active {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.mermaid-container-fullscreen {
-    position: relative;
-    width: 95vw;
-    height: 90vh;
-    max-width: 95vw;
-    max-height: 90vh;
-    background: white;
-    border-radius: 8px;
-    padding: 20px;
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
-    overflow: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.mermaid-container-fullscreen.dark-theme {
-    background: #1a1a1a;
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.8);
-}
-
-.mermaid-container-fullscreen pre.mermaid {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.mermaid-container-fullscreen .mermaid svg {
-    height: 100% !important;
-    width: 100% !important;
-    cursor: grab;
-}
-
-.mermaid-fullscreen-close {
-    position: fixed !important;
-    top: 20px !important;
-    right: 20px !important;
-    width: 40px;
-    height: 40px;
-    background: rgba(255, 255, 255, 0.95);
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    border-radius: 50%;
-    cursor: pointer;
-    z-index: 10000;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-    transition: all 0.2s;
-    font-size: 24px;
-    line-height: 1;
-    color: #333;
-}
-
-.mermaid-fullscreen-close:hover {
-    background: white;
-    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
-    transform: scale(1.1);
-}
-
-.mermaid-fullscreen-close.dark-theme {
-    background: rgba(50, 50, 50, 0.95);
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    color: #e0e0e0;
-}
-
-.mermaid-fullscreen-close.dark-theme:hover {
-    background: rgba(60, 60, 60, 1);
-    box-shadow: 0 6px 16px rgba(255, 255, 255, 0.2);
-}
-
-.mermaid-fullscreen-modal .mermaid-fullscreen-btn {
-    display: none !important;
-}`;
-document.head.appendChild(fullscreenStyle);
-
-// Detect if page has dark background
-const isDarkTheme = () => {
-    const bgColor = window.getComputedStyle(document.body).backgroundColor;
-    const match = bgColor.match(/rgb\((\d+),\s*(\d+),\s*(\d+)/);
-    if (match) {
-        const r = parseInt(match[1]);
-        const g = parseInt(match[2]);
-        const b = parseInt(match[3]);
-        const brightness = (r * 299 + g * 587 + b * 114) / 1000;
-        return brightness < 128;
-    }
-    return false;
-};
-
-const load = async () => {
-    await mermaid.run();
-
-    const all_mermaids = document.querySelectorAll(".mermaid");
-    const mermaids_processed = document.querySelectorAll(".mermaid[data-processed='true']");
-
-    if ("True" === "True") {
-        const mermaids_to_add_zoom = 1 === -1 ? all_mermaids.length : 1;
-        if(mermaids_to_add_zoom > 0) {
-            var svgs = d3.selectAll(".mermaid[data-zoom-id=id-71d080e6-5ae1-4fe7-aa13-241cc824d3de] svg");
-            if(all_mermaids.length !== mermaids_processed.length) {
-                setTimeout(load, 200);
-                return;
-            } else if(svgs.size() !== mermaids_to_add_zoom) {
-                setTimeout(load, 200);
-                return;
-            } else {
-                svgs.each(function() {
-                    var svg = d3.select(this);
-                    svg.html("<g class='wrapper'>" + svg.html() + "</g>");
-                    var inner = svg.select("g");
-                    var zoom = d3.zoom().on("zoom", function(event) {
-                        inner.attr("transform", event.transform);
-                    });
-                    svg.call(zoom);
-                });
-            }
-        }
-    } else if(all_mermaids.length !== mermaids_processed.length) {
-        // Wait for mermaid to process all diagrams
-        setTimeout(load, 200);
-        return;
-    }
-
-    const darkTheme = isDarkTheme();
-
-    // Stop here if not adding fullscreen capability
-    if ("True" !== "True") return;
-
-    const modal = document.createElement('div');
-    modal.className = 'mermaid-fullscreen-modal' + (darkTheme ? ' dark-theme' : '');
-    modal.setAttribute('role', 'dialog');
-    modal.setAttribute('aria-modal', 'true');
-    modal.setAttribute('aria-label', 'Fullscreen diagram viewer');
-    modal.innerHTML = `
-        <button class="mermaid-fullscreen-close${darkTheme ? ' dark-theme' : ''}" aria-label="Close fullscreen">✕</button>
-        <div class="mermaid-container-fullscreen${darkTheme ? ' dark-theme' : ''}"></div>
-    `;
-    document.body.appendChild(modal);
-
-    const modalContent = modal.querySelector('.mermaid-container-fullscreen');
-    const closeBtn = modal.querySelector('.mermaid-fullscreen-close');
-
-    let previousScrollOffset = [window.scrollX, window.scrollY];
-
-    const closeModal = () => {
-        modal.classList.remove('active');
-        modalContent.innerHTML = '';
-        document.body.style.overflow = ''
-        window.scrollTo({left: previousScrollOffset[0], top: previousScrollOffset[1], behavior: 'instant'});
-    };
-
-    closeBtn.addEventListener('click', closeModal);
-    modal.addEventListener('click', (e) => {
-        if (e.target === modal) closeModal();
-    });
-    document.addEventListener('keydown', (e) => {
-        if (e.key === 'Escape' && modal.classList.contains('active')) {
-            closeModal();
-        }
-    });
-
-    const allButtons = [];
-
-    document.querySelectorAll('.mermaid').forEach((mermaidDiv) => {
-        if (mermaidDiv.parentNode.classList.contains('mermaid-container') ||
-            mermaidDiv.closest('.mermaid-fullscreen-modal')) {
-            return;
-        }
-
-        const container = document.createElement('div');
-        container.className = 'mermaid-container';
-        mermaidDiv.parentNode.insertBefore(container, mermaidDiv);
-        container.appendChild(mermaidDiv);
-
-        const fullscreenBtn = document.createElement('button');
-        fullscreenBtn.className = 'mermaid-fullscreen-btn' + (darkTheme ? ' dark-theme' : '');
-        fullscreenBtn.setAttribute('aria-label', 'View diagram in fullscreen');
-        fullscreenBtn.textContent = '⛶';
-        fullscreenBtn.style.opacity = '50%';
-
-        // Calculate dynamic position based on diagram's margin and padding
-        const diagramStyle = window.getComputedStyle(mermaidDiv);
-        const marginTop = parseFloat(diagramStyle.marginTop) || 0;
-        const marginRight = parseFloat(diagramStyle.marginRight) || 0;
-        const paddingTop = parseFloat(diagramStyle.paddingTop) || 0;
-        const paddingRight = parseFloat(diagramStyle.paddingRight) || 0;
-        fullscreenBtn.style.top = `${marginTop + paddingTop + 4}px`;
-        fullscreenBtn.style.right = `${marginRight + paddingRight + 4}px`;
-
-        fullscreenBtn.addEventListener('click', () => {
-            previousScrollOffset = [window.scroll, window.scrollY];
-            const clone = mermaidDiv.cloneNode(true);
-            modalContent.innerHTML = '';
-            modalContent.appendChild(clone);
-
-            const svg = clone.querySelector('svg');
-            if (svg) {
-                svg.removeAttribute('width');
-                svg.removeAttribute('height');
-                svg.style.width = '100%';
-                svg.style.height = 'auto';
-                svg.style.maxWidth = '100%';
-                svg.style.sdisplay = 'block';
-
-                if ("True" === "True") {
-                    setTimeout(() => {
-                        const g = svg.querySelector('g');
-                        if (g) {
-                            var svgD3 = d3.select(svg);
-                            svgD3.html("<g class='wrapper'>" + svgD3.html() + "</g>");
-                            var inner = svgD3.select("g");
-                            var zoom = d3.zoom().on("zoom", function(event) {
-                                inner.attr("transform", event.transform);
-                            });
-                            svgD3.call(zoom);
-                        }
-                    }, 100);
-                }
-            }
-
-            modal.classList.add('active');
-            document.body.style.overflow = 'hidden';
-        });
-
-        container.appendChild(fullscreenBtn);
-        allButtons.push(fullscreenBtn);
-    });
-
-    // Update theme classes when theme changes
-    const updateTheme = () => {
-        const dark = isDarkTheme();
-        allButtons.forEach(btn => {
-            if (dark) {
-                btn.classList.add('dark-theme');
-            } else {
-                btn.classList.remove('dark-theme');
-            }
-        });
-        if (dark) {
-            modal.classList.add('dark-theme');
-            modalContent.classList.add('dark-theme');
-            closeBtn.classList.add('dark-theme');
-        } else {
-            modal.classList.remove('dark-theme');
-            modalContent.classList.remove('dark-theme');
-            closeBtn.classList.remove('dark-theme');
-        }
-    };
-
-    // Watch for theme changes
-    const observer = new MutationObserver(updateTheme);
-    observer.observe(document.documentElement, {
-        attributes: true,
-        attributeFilter: ['class', 'style', 'data-theme']
-    });
-    observer.observe(document.body, {
-        attributes: true,
-        attributeFilter: ['class', 'style']
-    });
-};
-
-window.addEventListener("load", load);
-</script>
     </body>
 </html>
