@@ -61,6 +61,4 @@ html_theme_options = {
     }
 }
 
-latex_engine = {
-    "type": "lualatex"
-}
+latex_engine = {"lualatex"}
