@@ -34,8 +34,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 language = 'es'
 
-#latex_engine = "platex"
-latex_documents = ["aula115", "aula115", "aula115", "Camilo", "howto", False]
+latex_engine = "uplatex"
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
