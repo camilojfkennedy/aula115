@@ -15,11 +15,11 @@ build:
     build:
       pdf:
         - echo "Building PDF"
+        - mkdir -p $READTHEDOCS_OUTPUT/pdf/
         - python -m sphinx -T -b latex -d _build/doctrees -D language=es . $READTHEDOCS_OUTPUT/pdf
         - cat latexmkrc
         - latexmk -r latexmkrc -pdf -f -dvi- -ps- -jobname=aula115 -interaction=nonstopmode -c
     post_build:
-      - find . -maxdepth 1 -type f ! -name $READTHEDOCS_OUTPUT/pdf/"*.pdf" -delete
       - echo "Build finished!"
 
 
