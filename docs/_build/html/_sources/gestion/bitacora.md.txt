@@ -3,6 +3,21 @@
 Registros de año 2026 (año 1/3)
 
 ---
+## Modificaciones al portal (curso informática 10)
+
+```{article-info}
+:avatar: ./recursos/camilo.fonseca.png
+:author: Camilo Fonseca
+:date: 20 Abril, 2026
+:read-time: 11:36 p.m.
+```
+
+Se realizan las siguientes modificaciones en el portal:
+
+- Se reestructura el curso de **informática 10** periodo 01. Ahora es una sola guía donde se estudia la historia de la computación personal.
+- Se modifica la portada para mostrar información de estudios del docente autor.
+
+---
 ## Modificaciones al portal (curso programación 10)
 
 ```{article-info}

@@ -8,14 +8,15 @@
 :::{admonition} DOCENTE: Julian Camilo Fonseca Romero
 :class: seealso
 
-```{figure} ./recursos/camilo.fonseca.png
-:align: center
-:width: 180
+```{list-table}
+* - ```{figure} ./recursos/camilo.fonseca.png
+    :width: 180
+    ```
+  - - Ingeniero en Mecatrónica (2012)
+    - Especialista en Seguridad de la Información (2015)
+    - Magister en Ingeniería de Software y Sistemas Informáticos (2017)
+    - **email:** camilo.fonseca@jfkennedy.edu.co
 ```
-
-Ingeniero en Mecatrónica (2012), Especialista en Seguridad de la Información (2015), Magister en Ingeniería de Software y Sistemas Informáticos (2017).
-
-**email:** camilo.fonseca@jfkennedy.edu.co
 :::
 
 :::{admonition} MODELO PEDAGÓGICO: Activo

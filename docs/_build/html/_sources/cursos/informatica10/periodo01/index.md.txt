@@ -21,6 +21,5 @@
 :maxdepth: 2
 
 G01.md
-A03.md
 R01.md
 :::
