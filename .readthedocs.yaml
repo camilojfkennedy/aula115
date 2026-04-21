@@ -11,7 +11,13 @@ build:
     python: "3.13"
   jobs:
     pre_install:
-      - pip install myst-parser sphinx_design furo       
+      - pip install myst-parser sphinx_design furo
+    build:
+      pdf:
+        - echo "Building PDF"
+        - python -m sphinx -T -b latex -d _build/doctrees -D language=es . $READTHEDOCS_OUTPUT/pdf
+        - cat latexmkrc
+        - latexmk -r latexmkrc -pdf -f -dvi- -ps- -jobname=aula115 -interaction=nonstopmode -c
     post_build:
       - find . -maxdepth 1 -type f ! -name $READTHEDOCS_OUTPUT/pdf/"*.pdf" -delete
       - echo "Build finished!"
