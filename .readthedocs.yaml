@@ -12,10 +12,14 @@ build:
   jobs:
     pre_install:
       - pip install myst-parser sphinx_design furo
+    build:
+      pdf: 
+       # - echo "Building PDF"
+       # - mkdir -p $READTHEDOCS_OUTPUT/pdf/
+       # - find . -maxdepth 1 -type f ! -name "*.pdf" -delete
+       - rm $READTHEDOCS_OUTPUT/pdf/!(*.pdf)
     post_build:
-      pdf:
-        - rm $READTHEDOCS_OUTPUT/pdf/!(*.pdf)
-      
+      - echo "Build finished!"
 
 
 # Build documentation in the "docs/" directory with Sphinx
