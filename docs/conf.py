@@ -60,3 +60,7 @@ html_theme_options = {
         "color-sidebar-background": "#1a1c1e",
     }
 }
+
+latex_engine = {
+    "Type": "lualatex'"
+}
