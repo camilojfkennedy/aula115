@@ -16,7 +16,8 @@ build:
       pdf: 
        - echo "Building PDF"
        - mkdir -p $READTHEDOCS_OUTPUT/pdf/
-       - find . -maxdepth 1 -type f ! -name "*.pdf" -delete
+       # - find . -maxdepth 1 -type f ! -name "*.pdf" -delete
+       - echo "Hello world!" > $READTHEDOCS_OUTPUT/pdf/index.pdf
     post_build:
       - echo "Build finished!"
 
