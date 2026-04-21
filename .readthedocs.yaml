@@ -13,9 +13,10 @@ build:
     pre_install:
       - pip install myst-parser sphinx_design furo
     build:
-      - echo "Building PDF"
-      - mkdir -p $READTHEDOCS_OUTPUT/pdf/
-      - find . -maxdepth 1 -type f ! -name "*.pdf" -delete
+      pdf: 
+       - echo "Building PDF"
+       - mkdir -p $READTHEDOCS_OUTPUT/pdf/
+       - find . -maxdepth 1 -type f ! -name "*.pdf" -delete
     post_build:
       - echo "Build finished!"
 
