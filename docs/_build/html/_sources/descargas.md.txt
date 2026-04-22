@@ -10,12 +10,35 @@ Identifique el recurso y PULSE el botón **descargar**.
 
 ## Proyecto de grado
 
-- Plantilla Marco Teórico (LibreOffice) [{bdg-primary}`Descargar`](./cursos/informatica10/recursos/recursos/ESQUEMA_MARCO_TEORICO.odt)
+- :::{list-table}
+  :align: left
+  :header-rows: 1
+  * - Plantilla
+    - Microsoft Word
+    - LibreOffice Writer
+    - Google Docs
+    - LaTeX
+  * - Marco teórico
+    - 
+    - [{bdg-primary}`Descargar`](./recursos/MARCO_TEORICO.odt) [{bdg-secondary}`Descargar`](https://drive.google.com/file/d/1CgOI-NqmOQrc3K_oq9lFJrJ5Q9hqbKQH/view?usp=drive_link)
+    - 
+    - 
+  * - Anteproyecto
+    - 
+    - [{bdg-primary}`Descargar`](./recursos/ANTEPROYECTO.odt) [{bdg-secondary}`Descargar`](https://drive.google.com/file/d/1klPSl7wJwT1KyA956JvUN11-gPWVMJKR/view?usp=drive_link)
+    - 
+    - 
+  * - Proyecto
+    - [{bdg-primary}`Descargar`](./recursos/PROYECTO.docx) [{bdg-secondary}`Descargar`](https://docs.google.com/document/d/1Ela1bpCYS60FAh82kLc8D9H6ZBJNU8nZ/edit?usp=drive_link&ouid=112729153804362979178&rtpof=true&sd=true)
+    - 
+    - 
+    - 
+  :::
 
+<!-- - Plantilla Marco Teórico (LibreOffice) [{bdg-primary}`Descargar`](./cursos/informatica10/recursos/recursos/ESQUEMA_MARCO_TEORICO.odt)
 - Plantilla Anteproyecto (LibreOffice) [{bdg-primary}`Descargar`](./cursos/informatica10/recursos/recursos/Plantilla_ANTEPROYECTO.odt)
 - Plantilla Anteproyecto (Microsoft word) [{bdg-primary}`Descargar`](./cursos/informatica10/recursos/recursos/Plantilla_ANTEPROYECTO.docx)
-- EJEMPLO Ante-proyecto SALA 115 (PDF) [{bdg-primary}`Descargar`](./cursos/informatica10/recursos/recursos/ANTEPROYECTO_EJEMPLO_SALA115.pdf)
-- Plantilla **Proyecto de grado** (Microsoft Word) [{bdg-primary}`Descargar`](./cursos/informatica10/recursos/recursos/Plantilla_PROYECTO.docx)
+- Plantilla **Proyecto de grado** (Microsoft Word) [{bdg-primary}`Descargar`](./cursos/informatica10/recursos/recursos/Plantilla_PROYECTO.docx) -->
 
 ## Ofimática LibreOffice Writer
 

@@ -96,3 +96,5 @@ Existe una alerta de posible fallo en el disco duro. Se tienen backups en caso d
     - **Centralización y acceso de la información:** Configuración de servidor local en equipo del docente para acceso al portal aula 115 de forma local
     - **Plan de mantenimiento preventivo:** Los PCs reciben de forma periodica mantenimiento preventivo y correctivo para asegurar la continuidad de las actividades académicas
     - **Capacitación a usuarios:** El aula 115 funciona como espacio de capacitación institucional en competencias digitales.
+
+- EJEMPLO Ante-proyecto SALA 115 (PDF) [{bdg-primary}`Descargar`](../cursos/informatica10/recursos/recursos/ANTEPROYECTO_EJEMPLO_SALA115.pdf)
